@@ -146,7 +146,7 @@
     </div>
   </section>
 
-  <!-- Portfolio Grid -->
+  <!-- jugadores Grid -->
   <section class="bg-light" id="jugadores">
     <div class="container">
       <div class="row">
@@ -162,16 +162,16 @@
 {% for jugador in jugadores_ordenados %}
 {% assign impar = jugador.posicion | modulo:2 %}
 {% assign ctr = ctr | plus:1 %}
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal{{ctr}}">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
+        <div class="col-md-4 col-sm-6 jugadores-item">
+          <a class="jugadores-link" data-toggle="modal" href="#jugadoresModal{{ctr}}">
+            <div class="jugadores-hover">
+              <div class="jugadores-hover-content">
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid foto" src="img/jugadores/{{ jugador.foto }}" alt="{{ jugador.nombre }} {{ jugador.apellidos }}">
+            <img id="foto" class="img-fluid foto" src="img/jugadores/{{ jugador.foto }}" alt="{{ jugador.nombre }} {{ jugador.apellidos }}">
           </a>
-          <div class="portfolio-caption">
+          <div class="jugadores-caption">
             <h6>{{ jugador.nombre }} {{ jugador.apellidos }}</h6>
             <p class="text-muted">
 			<B>Demarcación:</B> {{ jugador.demarcacion }}<BR>
@@ -445,7 +445,7 @@
 {% assign impar = jugador.posicion | modulo:2 %}
 {% assign ctr = ctr | plus:1 %}
   <!-- Modal -->
-  <div class="portfolio-modal modal fade" id="portfolioModal{{ctr}}" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="jugadores-modal modal fade" id="jugadoresModal{{ctr}}" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">

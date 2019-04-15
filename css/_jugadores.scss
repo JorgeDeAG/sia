@@ -7,6 +7,11 @@
   .jugadores-item {
     right: 0;
     margin: 0 0 15px;
+	.foto {
+		oclip-path: polygon(50% 5%, 0% 100%, 100% 100%);	
+		rclip-path: polygon(50% 19%, 0 76%, 100% 76%);
+		lclip-path: inset(10px 20px 30px 40px);
+	}
     .jugadores-link {
       position: relative;
       display: block;
