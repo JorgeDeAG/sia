@@ -8,9 +8,11 @@
     right: 0;
     margin: 0 0 15px;
 	.foto {
-		oclip-path: polygon(50% 5%, 0% 100%, 100% 100%);	
-		rclip-path: polygon(50% 19%, 0 76%, 100% 76%);
-		lclip-path: inset(10px 20px 30px 40px);
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		max-height:300px; 
+		object-fit: contain;
 	}
     .jugadores-link {
       position: relative;
@@ -60,7 +62,8 @@
         text-transform: none;
       }
       p {
-        font-size: 16px;
+		text-align: left;
+        font-size: 15px;
         font-style: italic;
         margin: 0;
         @include serif-font;

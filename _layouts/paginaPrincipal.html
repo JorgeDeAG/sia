@@ -162,7 +162,7 @@
 {% for jugador in jugadores_ordenados %}
 {% assign impar = jugador.posicion | modulo:2 %}
 {% assign ctr = ctr | plus:1 %}
-        <div class="col-md-4 col-sm-6 jugadores-item">
+        <div class="col-md-4 col-sm-4 jugadores-item">
           <a class="jugadores-link" data-toggle="modal" href="#jugadoresModal{{ctr}}">
             <div class="jugadores-hover">
               <div class="jugadores-hover-content">
@@ -173,7 +173,7 @@
           </a>
           <div class="jugadores-caption">
             <h6>{{ jugador.nombre }} {{ jugador.apellidos }}</h6>
-            <p class="text-muted">
+            <p class="text-muted ">
 			<B>Demarcación:</B> {{ jugador.demarcacion }}<BR>
 			<B>Equipo Actual:</B> {{ jugador.equipo_actual }}<BR>
 			<B>Competición actual:</B> {{ jugador.competicion_actual }}<BR>
