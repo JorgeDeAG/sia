@@ -1,15 +1,19 @@
-// Styling for the portfolio section
-#portfolio {
-  .portfolio-item {
+// Styling for the jugadores section
+#jugadores {
+  #background-image: url('../img/hierba.jpg');
+  .foto {
+	width: 250px;
+  }
+  .jugadores-item {
     right: 0;
     margin: 0 0 15px;
-    .portfolio-link {
+    .jugadores-link {
       position: relative;
       display: block;
       max-width: 400px;
       margin: 0 auto;
       cursor: pointer;
-      .portfolio-hover {
+      .jugadores-hover {
         position: absolute;
         width: 100%;
         height: 100%;
@@ -21,7 +25,7 @@
         &:hover {
           opacity: 1;
         }
-        .portfolio-hover-content {
+        .jugadores-hover-content {
           font-size: 20px;
           position: absolute;
           top: 50%;
@@ -40,7 +44,7 @@
         }
       }
     }
-    .portfolio-caption {
+    .jugadores-caption {
       max-width: 400px;
       margin: 0 auto;
       padding: 25px;
@@ -63,14 +67,14 @@
   }
 }
 @media(min-width:767px) {
-  #portfolio {
-    .portfolio-item {
+  #jugadores {
+    .jugadores-item {
       margin: 0 0 30px;
     }
   }
 }
 
-.portfolio-modal {
+.jugadores-modal {
   padding-right: 0px !important;
   .modal-dialog {
     margin: 1rem;
