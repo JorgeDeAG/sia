@@ -27,4 +27,7 @@ theme: minima
 #   - vendor/ruby/
 
 collections:
+  servicios:
   jugadores:
+  jugadoras:
+  equipo:
