@@ -1,7 +1,7 @@
 ---
 posicion: 40
 nombre: Alberto Ortiz 
-funcion: Entrenador jefe
+funcion: CEO
 foto: an.jpg
 ---
 Currículum...
