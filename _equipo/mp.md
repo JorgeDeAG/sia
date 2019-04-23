@@ -1,7 +1,7 @@
 ---
 posicion: 10
 nombre: Miguel Palencia
-funcion: Player Agent
+funcion: CEO Player Agent
 foto: an.jpg
 CEO: true
 ---

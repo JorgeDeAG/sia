@@ -1,7 +1,7 @@
 ---
 posicion: 30
 nombre: Diego Leon
-funcion: Player Agent
+funcion: CEO Fútbol Internacional
 foto: an.jpg
 CEO: true
 ---
