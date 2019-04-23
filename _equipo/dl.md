@@ -1,7 +1,8 @@
 ---
 posicion: 30
 nombre: Diego Leon
-funcion: Entrenador jefe
+funcion: Player Agent
 foto: an.jpg
+CEO: true
 ---
 Currículum...

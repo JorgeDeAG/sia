@@ -1,7 +1,7 @@
 ---
 posicion: 50
 nombre: Joshua Zapata
-funcion: Entrenador jefe
+funcion: Player Agent
 foto: an.jpg
 ---
 Currículum...

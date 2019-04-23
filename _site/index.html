@@ -48,10 +48,10 @@
 
 <body id="page-top">
 
-  <!-- Navigation -->
+    <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="img/logos/logop.png"></a>
+      <a class="navbar-brand js-scroll-trigger" href="index.html#page-top"><img src="img/logos/logop.png"></a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fas fa-bars"></i>
@@ -59,22 +59,19 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav text-uppercase ml-auto">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#servicios">Servicios</a>
+            <a class="nav-link js-scroll-trigger" href="index.html#servicios">Servicios</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#jugadores">Jugadores</a>
+            <a class="nav-link js-scroll-trigger" href="jugadores.html">Jugadores</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#jugadoras">Jugadoras</a>
+            <a class="nav-link js-scroll-trigger" href="jugadoras.html">Jugadoras</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#historia">Historia</a>
+            <a class="nav-link js-scroll-trigger" href="index.html#equipo">Equipo</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#equipo">Equipo</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contacto">Contacto</a>
+            <a class="nav-link js-scroll-trigger" href="index.html#contacto">Contacto</a>
           </li>
         </ul>
         
@@ -100,17 +97,53 @@
     </div>
   </nav>
 
+
   <!-- Header -->
   <header class="masthead">
-    <div class="container">
+  <!--div class="container">
       <div class="intro-text">
         <div class="intro-lead-in">No te quedes donde estás</div>
         <div class="intro-heading text-uppercase">Sácale partido a tu potencial</div>
-        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#servicios">Servicios</a>
       </div>
-    </div>
-  </header>
+    </div-->
 
+<!--Test-->
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div id="imagen1" class="carousel-item active" onclick="window.location='jugadores.html';">
+			<div class="container">
+			  <div class="intro-text">
+				<div class="intro-lead-in">No te quedes donde estás</div>
+				<div class="intro-heading text-uppercase">Exprime tu potencial con nosotros</div>
+			  </div>
+			</div>
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+        </div>
+        <div id="imagen2" class="carousel-item" onclick="window.location='jugadoras.html';">
+			<div class="container">
+			  <div class="intro-text">
+				<div class="intro-lead-in">Fútbol femenino</div>
+				<div class="intro-heading text-uppercase">Inicia el viaje<BR>hacia tu éxito</div>
+			  </div>
+			</div>
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+   </header>
+   
   <!-- Services -->
   <section id="servicios">
     <div class="container">
@@ -134,7 +167,6 @@
             <i class="fas fa-address-card fa-stack-1x"></i>
           </span>
           <h4 class="service-heading">Representación</h4>
-          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
         </div>
 
 
@@ -147,7 +179,6 @@
             <i class="fas fa-futbol fa-stack-1x"></i>
           </span>
           <h4 class="service-heading">Asesoría Deportiva</h4>
-          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
         </div>
 
 
@@ -160,7 +191,6 @@
             <i class="fas fa-user-tie fa-stack-1x"></i>
           </span>
           <h4 class="service-heading">Asesoría Jurídica</h4>
-          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
         </div>
 
 
@@ -173,7 +203,6 @@
             <i class="fas fa-briefcase fa-stack-1x"></i>
           </span>
           <h4 class="service-heading">Asesoría Laboral</h4>
-          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
         </div>
 
 
@@ -186,7 +215,6 @@
             <i class="fas fa-euro-sign fa-stack-1x"></i>
           </span>
           <h4 class="service-heading">Asesoría Fiscal</h4>
-          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
         </div>
 
 
@@ -199,7 +227,6 @@
             <i class="fas fa-file-invoice fa-stack-1x"></i>
           </span>
           <h4 class="service-heading">Administración</h4>
-          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
         </div>
 
 
@@ -212,7 +239,6 @@
             <i class="fas fa-briefcase-medical fa-stack-1x"></i>
           </span>
           <h4 class="service-heading">Asesoría médica</h4>
-          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
         </div>
 
 
@@ -225,7 +251,6 @@
             <i class="fas fa-thumbs-up fa-stack-1x"></i>
           </span>
           <h4 class="service-heading">Cobertura de servicios integrales</h4>
-          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
         </div>
 
 
@@ -238,7 +263,6 @@
             <i class="fas fa-satellite-dish fa-stack-1x"></i>
           </span>
           <h4 class="service-heading">Comunicación</h4>
-          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
         </div>
 
 
@@ -251,480 +275,10 @@
             <i class="fas fa-camera fa-stack-1x"></i>
           </span>
           <h4 class="service-heading">Imagen</h4>
-          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
         </div>
 
 
 
-      </div>
-    </div>
-  </section>
-
-  <!-- jugadores Grid -->
-  <section class="bg-light" id="jugadores">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">Jugadores</h2>
-          <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-        </div>
-      </div>
-      <div class="row">
-
-
-
-
-
-
-        <div class="col-md-4 col-sm-4 jugadores-item">
-          <a class="jugadores-link" data-toggle="modal" href="#jugadoresModal1">
-            <div class="jugadores-hover">
-              <div class="jugadores-hover-content">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img id="foto" class="img-fluid foto" src="img/jugadores/1.jpg" alt="Jugador 1 ">
-          </a>
-          <div class="jugadores-caption">
-            <h6>Jugador 1 </h6>
-            <p class="text-muted ">
-			<B>Demarcación:</B> Medio Centro<BR>
-			<B>Equipo Actual:</B> S.D. Huesca<BR>
-			<B>Competición actual:</B> Primera División<BR>
-			<B>Edad:</B> 1 años (02/01/1994)<BR>
-			</p>
-          </div>
-        </div>
-
-
-
-        <div class="col-md-4 col-sm-4 jugadores-item">
-          <a class="jugadores-link" data-toggle="modal" href="#jugadoresModal2">
-            <div class="jugadores-hover">
-              <div class="jugadores-hover-content">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img id="foto" class="img-fluid foto" src="img/jugadores/2.jpg" alt=" Jugador 2">
-          </a>
-          <div class="jugadores-caption">
-            <h6> Jugador 2</h6>
-            <p class="text-muted ">
-			<B>Demarcación:</B> Medio Centro, Interior Derecho<BR>
-			<B>Equipo Actual:</B> Real Madrid C.F.<BR>
-			<B>Competición actual:</B> Primera División<BR>
-			<B>Edad:</B> 2 años (07/08/1996)<BR>
-			</p>
-          </div>
-        </div>
-
-
-
-        <div class="col-md-4 col-sm-4 jugadores-item">
-          <a class="jugadores-link" data-toggle="modal" href="#jugadoresModal3">
-            <div class="jugadores-hover">
-              <div class="jugadores-hover-content">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img id="foto" class="img-fluid foto" src="img/jugadores/3.jpg" alt="Jugador 3 ">
-          </a>
-          <div class="jugadores-caption">
-            <h6>Jugador 3 </h6>
-            <p class="text-muted ">
-			<B>Demarcación:</B> Medio Centro<BR>
-			<B>Equipo Actual:</B> S.D. Huesca<BR>
-			<B>Competición actual:</B> Primera División<BR>
-			<B>Edad:</B> 3 años (02/01/1994)<BR>
-			</p>
-          </div>
-        </div>
-
-
-
-        <div class="col-md-4 col-sm-4 jugadores-item">
-          <a class="jugadores-link" data-toggle="modal" href="#jugadoresModal4">
-            <div class="jugadores-hover">
-              <div class="jugadores-hover-content">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img id="foto" class="img-fluid foto" src="img/jugadores/4.jpg" alt=" Jugador 4">
-          </a>
-          <div class="jugadores-caption">
-            <h6> Jugador 4</h6>
-            <p class="text-muted ">
-			<B>Demarcación:</B> Medio Centro, Interior Derecho<BR>
-			<B>Equipo Actual:</B> Real Madrid C.F.<BR>
-			<B>Competición actual:</B> Primera División<BR>
-			<B>Edad:</B> 4 años (07/08/1996)<BR>
-			</p>
-          </div>
-        </div>
-
-
-
-        <div class="col-md-4 col-sm-4 jugadores-item">
-          <a class="jugadores-link" data-toggle="modal" href="#jugadoresModal5">
-            <div class="jugadores-hover">
-              <div class="jugadores-hover-content">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img id="foto" class="img-fluid foto" src="img/jugadores/5.jpg" alt="Jugador 5 ">
-          </a>
-          <div class="jugadores-caption">
-            <h6>Jugador 5 </h6>
-            <p class="text-muted ">
-			<B>Demarcación:</B> Medio Centro<BR>
-			<B>Equipo Actual:</B> S.D. Huesca<BR>
-			<B>Competición actual:</B> Primera División<BR>
-			<B>Edad:</B> 5 años (02/01/1994)<BR>
-			</p>
-          </div>
-        </div>
-
-
-
-        <div class="col-md-4 col-sm-4 jugadores-item">
-          <a class="jugadores-link" data-toggle="modal" href="#jugadoresModal6">
-            <div class="jugadores-hover">
-              <div class="jugadores-hover-content">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img id="foto" class="img-fluid foto" src="img/jugadores/6.jpg" alt=" Jugador 6">
-          </a>
-          <div class="jugadores-caption">
-            <h6> Jugador 6</h6>
-            <p class="text-muted ">
-			<B>Demarcación:</B> Medio Centro, Interior Derecho<BR>
-			<B>Equipo Actual:</B> Real Madrid C.F.<BR>
-			<B>Competición actual:</B> Primera División<BR>
-			<B>Edad:</B> 6 años (07/08/1996)<BR>
-			</p>
-          </div>
-        </div>
-
-
-
-        <div class="col-md-4 col-sm-4 jugadores-item">
-          <a class="jugadores-link" data-toggle="modal" href="#jugadoresModal7">
-            <div class="jugadores-hover">
-              <div class="jugadores-hover-content">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img id="foto" class="img-fluid foto" src="img/jugadores/7.jpg" alt="Jugador 7 ">
-          </a>
-          <div class="jugadores-caption">
-            <h6>Jugador 7 </h6>
-            <p class="text-muted ">
-			<B>Demarcación:</B> Medio Centro<BR>
-			<B>Equipo Actual:</B> S.D. Huesca<BR>
-			<B>Competición actual:</B> Primera División<BR>
-			<B>Edad:</B> 7 años (02/01/1994)<BR>
-			</p>
-          </div>
-        </div>
-
-
-
-        <div class="col-md-4 col-sm-4 jugadores-item">
-          <a class="jugadores-link" data-toggle="modal" href="#jugadoresModal8">
-            <div class="jugadores-hover">
-              <div class="jugadores-hover-content">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img id="foto" class="img-fluid foto" src="img/jugadores/8.jpg" alt=" Jugador 8">
-          </a>
-          <div class="jugadores-caption">
-            <h6> Jugador 8</h6>
-            <p class="text-muted ">
-			<B>Demarcación:</B> Medio Centro, Interior Derecho<BR>
-			<B>Equipo Actual:</B> Real Madrid C.F.<BR>
-			<B>Competición actual:</B> Primera División<BR>
-			<B>Edad:</B> 8 años (07/08/1996)<BR>
-			</p>
-          </div>
-        </div>
-		
-      </div>
-    </div>
-  </section>
-
-  <!-- jugadores Grid -->
-  <section class="bg-light" id="jugadoras">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">Jugadoras</h2>
-          <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-        </div>
-      </div>
-      <div class="row">
-
-
-
-
-
-
-        <div class="col-md-4 col-sm-4 jugadores-item">
-          <a class="jugadores-link" data-toggle="modal" href="#jugadorasModal1">
-            <div class="jugadores-hover">
-              <div class="jugadores-hover-content">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img id="foto" class="img-fluid foto" src="img/jugadoras/1.jpg" alt="Jugadora 1 ">
-          </a>
-          <div class="jugadores-caption">
-            <h6>Jugadora 1 </h6>
-            <p class="text-muted ">
-			<B>Demarcación:</B> Centrocampista<BR>
-			<B>Equipo Actual:</B> Rayo Femenino<BR>
-			<B>Competición actual:</B> Primera División<BR>
-			<B>Edad:</B> 1 años (20/04/1989)<BR>
-			</p>
-          </div>
-        </div>
-
-
-
-        <div class="col-md-4 col-sm-4 jugadores-item">
-          <a class="jugadores-link" data-toggle="modal" href="#jugadorasModal2">
-            <div class="jugadores-hover">
-              <div class="jugadores-hover-content">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img id="foto" class="img-fluid foto" src="img/jugadoras/2.jpg" alt="Jugadora 2 ">
-          </a>
-          <div class="jugadores-caption">
-            <h6>Jugadora 2 </h6>
-            <p class="text-muted ">
-			<B>Demarcación:</B> Medio Centro<BR>
-			<B>Equipo Actual:</B> Rayo Femenino<BR>
-			<B>Competición actual:</B> Primera División<BR>
-			<B>Edad:</B> 2 años (02/10/1994)<BR>
-			</p>
-          </div>
-        </div>
-
-
-
-        <div class="col-md-4 col-sm-4 jugadores-item">
-          <a class="jugadores-link" data-toggle="modal" href="#jugadorasModal3">
-            <div class="jugadores-hover">
-              <div class="jugadores-hover-content">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img id="foto" class="img-fluid foto" src="img/jugadoras/3.jpg" alt="Jugadora 3 ">
-          </a>
-          <div class="jugadores-caption">
-            <h6>Jugadora 3 </h6>
-            <p class="text-muted ">
-			<B>Demarcación:</B> Medio Centro<BR>
-			<B>Equipo Actual:</B> Rayo Femenino<BR>
-			<B>Competición actual:</B> Primera División<BR>
-			<B>Edad:</B> 3 años (20/12/1994)<BR>
-			</p>
-          </div>
-        </div>
-
-
-
-        <div class="col-md-4 col-sm-4 jugadores-item">
-          <a class="jugadores-link" data-toggle="modal" href="#jugadorasModal4">
-            <div class="jugadores-hover">
-              <div class="jugadores-hover-content">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img id="foto" class="img-fluid foto" src="img/jugadoras/4.jpg" alt="Jugadora 4 ">
-          </a>
-          <div class="jugadores-caption">
-            <h6>Jugadora 4 </h6>
-            <p class="text-muted ">
-			<B>Demarcación:</B> Medio Centro<BR>
-			<B>Equipo Actual:</B> FC Barcelona<BR>
-			<B>Competición actual:</B> Primera División<BR>
-			<B>Edad:</B> 4 años (12/03/1990)<BR>
-			</p>
-          </div>
-        </div>
-
-
-
-        <div class="col-md-4 col-sm-4 jugadores-item">
-          <a class="jugadores-link" data-toggle="modal" href="#jugadorasModal5">
-            <div class="jugadores-hover">
-              <div class="jugadores-hover-content">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img id="foto" class="img-fluid foto" src="img/jugadoras/5.jpg" alt="Jugadora 5 ">
-          </a>
-          <div class="jugadores-caption">
-            <h6>Jugadora 5 </h6>
-            <p class="text-muted ">
-			<B>Demarcación:</B> Medio Centro<BR>
-			<B>Equipo Actual:</B> Madrid CFF<BR>
-			<B>Competición actual:</B> Primera División<BR>
-			<B>Edad:</B> 5 años (24/05/1989)<BR>
-			</p>
-          </div>
-        </div>
-
-
-
-        <div class="col-md-4 col-sm-4 jugadores-item">
-          <a class="jugadores-link" data-toggle="modal" href="#jugadorasModal6">
-            <div class="jugadores-hover">
-              <div class="jugadores-hover-content">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img id="foto" class="img-fluid foto" src="img/jugadoras/6.jpg" alt="Jugadora 6 ">
-          </a>
-          <div class="jugadores-caption">
-            <h6>Jugadora 6 </h6>
-            <p class="text-muted ">
-			<B>Demarcación:</B> Medio Centro<BR>
-			<B>Equipo Actual:</B> FC Barcelona<BR>
-			<B>Competición actual:</B> Primera División<BR>
-			<B>Edad:</B> 6 años (25/06/1985)<BR>
-			</p>
-          </div>
-        </div>
-
-
-
-        <div class="col-md-4 col-sm-4 jugadores-item">
-          <a class="jugadores-link" data-toggle="modal" href="#jugadorasModal7">
-            <div class="jugadores-hover">
-              <div class="jugadores-hover-content">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img id="foto" class="img-fluid foto" src="img/jugadoras/7.jpg" alt="Jugadora 7 ">
-          </a>
-          <div class="jugadores-caption">
-            <h6>Jugadora 7 </h6>
-            <p class="text-muted ">
-			<B>Demarcación:</B> Medio Centro<BR>
-			<B>Equipo Actual:</B> VCF Femenino<BR>
-			<B>Competición actual:</B> Primera División<BR>
-			<B>Edad:</B> 7 años (27/09/1987)<BR>
-			</p>
-          </div>
-        </div>
-
-
-
-        <div class="col-md-4 col-sm-4 jugadores-item">
-          <a class="jugadores-link" data-toggle="modal" href="#jugadorasModal8">
-            <div class="jugadores-hover">
-              <div class="jugadores-hover-content">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img id="foto" class="img-fluid foto" src="img/jugadoras/8.jpg" alt="Jugadora 8 ">
-          </a>
-          <div class="jugadores-caption">
-            <h6>Jugadora 8 </h6>
-            <p class="text-muted ">
-			<B>Demarcación:</B> Medio Centro<BR>
-			<B>Equipo Actual:</B> Málaga CF<BR>
-			<B>Competición actual:</B> Primera División<BR>
-			<B>Edad:</B> 8 años (09/01/1989)<BR>
-			</p>
-          </div>
-        </div>
-		
-      </div>
-    </div>
-  </section>
-
-  <!-- About -->
-  <section id="historia">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">Historia</h2>
-          <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-12">
-          <ul class="timeline">
-            <li>
-              <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="img/about/1.jpg" alt="">
-              </div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4>2015-2017</h4>
-                  <h4 class="subheading">Nuestros inicios</h4>
-                </div>
-                <div class="timeline-body">
-                  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                </div>
-              </div>
-            </li>
-            <li class="timeline-inverted">
-              <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="img/about/2.jpg" alt="">
-              </div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4>Marzo de 2018</h4>
-                  <h4 class="subheading">Nace una agencia</h4>
-                </div>
-                <div class="timeline-body">
-                  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="img/about/3.jpg" alt="">
-              </div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4>Abril de 2019</h4>
-                  <h4 class="subheading">Transición al servicio completo</h4>
-                </div>
-                <div class="timeline-body">
-                  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                </div>
-              </div>
-            </li>
-            <li class="timeline-inverted">
-              <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="img/about/4.jpg" alt="">
-              </div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4>Julio de 2019</h4>
-                  <h4 class="subheading">Segunda fase de expansión</h4>
-                </div>
-                <div class="timeline-body">
-                  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                </div>
-              </div>
-            </li>
-            <li class="timeline-inverted">
-              <div class="timeline-image">
-                <h4>Únete
-                  <br>a nuestra
-                  <br>historia</h4>
-              </div>
-            </li>
-          </ul>
-        </div>
       </div>
     </div>
   </section>
@@ -748,9 +302,9 @@
 	  
         <div class="col-sm-4">
           <div class="team-member">
-            <img class="mx-auto rounded-circle" src="img/equipo/an.jpg" alt="Miguel Palencia Entrenador jefe">
+            <img class="mx-auto rounded-circle" src="img/equipo/an.jpg" alt="Miguel Palencia Player Agent">
             <h4>Miguel Palencia</h4>
-            <p class="text-muted">Entrenador jefe</p>
+            <p class="text-muted">Player Agent</p>
             <ul class="list-inline social-buttons">
 			  
 			  
@@ -766,16 +320,10 @@
 	  
         <div class="col-sm-4">
           <div class="team-member">
-            <img class="mx-auto rounded-circle" src="img/equipo/ss.jpg" alt="Sergio Soriano Entrenador jefe">
+            <img class="mx-auto rounded-circle" src="img/equipo/ss.jpg" alt="Sergio Soriano Player Agent">
             <h4>Sergio Soriano</h4>
-            <p class="text-muted">Entrenador jefe</p>
+            <p class="text-muted">Player Agent</p>
             <ul class="list-inline social-buttons">
-			  
-              <li class="list-inline-item">
-                <a target="_blank" href="https://www.instagram.com/soriano.20/?hl=es">
-                  <i class="fab fa-instagram"></i>
-                </a>
-              </li>
 			  
 			  
 			  
@@ -790,9 +338,9 @@
 	  
         <div class="col-sm-4">
           <div class="team-member">
-            <img class="mx-auto rounded-circle" src="img/equipo/an.jpg" alt="Diego Leon Entrenador jefe">
+            <img class="mx-auto rounded-circle" src="img/equipo/an.jpg" alt="Diego Leon Player Agent">
             <h4>Diego Leon</h4>
-            <p class="text-muted">Entrenador jefe</p>
+            <p class="text-muted">Player Agent</p>
             <ul class="list-inline social-buttons">
 			  
 			  
@@ -808,9 +356,9 @@
 	  
         <div class="col-sm-4">
           <div class="team-member">
-            <img class="mx-auto rounded-circle" src="img/equipo/an.jpg" alt="Alberto Ortiz Entrenador jefe">
+            <img class="mx-auto rounded-circle" src="img/equipo/an.jpg" alt="Alberto Ortiz Player Agent">
             <h4>Alberto Ortiz</h4>
-            <p class="text-muted">Entrenador jefe</p>
+            <p class="text-muted">Player Agent</p>
             <ul class="list-inline social-buttons">
 			  
 			  
@@ -826,9 +374,9 @@
 	  
         <div class="col-sm-4">
           <div class="team-member">
-            <img class="mx-auto rounded-circle" src="img/equipo/an.jpg" alt="Joshua Zapata Entrenador jefe">
+            <img class="mx-auto rounded-circle" src="img/equipo/an.jpg" alt="Joshua Zapata Player Agent">
             <h4>Joshua Zapata</h4>
-            <p class="text-muted">Entrenador jefe</p>
+            <p class="text-muted">Player Agent</p>
             <ul class="list-inline social-buttons">
 			  
 			  
@@ -844,9 +392,9 @@
 	  
         <div class="col-sm-4">
           <div class="team-member">
-            <img class="mx-auto rounded-circle" src="img/equipo/an.jpg" alt="David Córcoles Entrenador jefe">
+            <img class="mx-auto rounded-circle" src="img/equipo/an.jpg" alt="David Córcoles Player Agent">
             <h4>David Córcoles</h4>
-            <p class="text-muted">Entrenador jefe</p>
+            <p class="text-muted">Player Agent</p>
             <ul class="list-inline social-buttons">
 			  
 			  
@@ -929,7 +477,8 @@
     </div>
   </section>
 
-  <!-- Footer -->
+  
+    <!-- Footer -->
   <footer>
     <div class="container">
       <div class="row">
@@ -962,628 +511,9 @@
     </div>
   </footer>
 
+
+
   
-  
-  <!-- Jugadores Modals -->
-
-
-
-
-
-
-  <!-- Modal -->
-  <div class="jugadores-modal modal fade" id="jugadoresModal1" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <div class="modal-body">
-                <!-- Project Details Go Here -->
-                <h5 class="text-uppercase">Jugador 1 </h5>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/jugadores/1.jpg" alt="Jugador 1 ">
-                <p><p>Datos adicionales del jugador</p>
-</p>
-                <ul class="list-inline">
-					<B>Demarcación:</B> Medio Centro<BR>
-					<B>Equipo Actual:</B> S.D. Huesca<BR>
-					<B>Competición actual:</B> Primera División<BR>
-					<B>Edad:</B> 1 años (02/01/1994)<BR>
-                </ul>
-                <button class="btn btn-primary" data-dismiss="modal" type="button">
-                  <i class="fas fa-times"></i>
-                  Cerrar</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-
-  <!-- Modal -->
-  <div class="jugadores-modal modal fade" id="jugadoresModal2" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <div class="modal-body">
-                <!-- Project Details Go Here -->
-                <h5 class="text-uppercase"> Jugador 2</h5>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/jugadores/2.jpg" alt=" Jugador 2">
-                <p><p>Datos adicionales del jugador</p>
-</p>
-                <ul class="list-inline">
-					<B>Demarcación:</B> Medio Centro, Interior Derecho<BR>
-					<B>Equipo Actual:</B> Real Madrid C.F.<BR>
-					<B>Competición actual:</B> Primera División<BR>
-					<B>Edad:</B> 2 años (07/08/1996)<BR>
-                </ul>
-                <button class="btn btn-primary" data-dismiss="modal" type="button">
-                  <i class="fas fa-times"></i>
-                  Cerrar</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-
-  <!-- Modal -->
-  <div class="jugadores-modal modal fade" id="jugadoresModal3" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <div class="modal-body">
-                <!-- Project Details Go Here -->
-                <h5 class="text-uppercase">Jugador 3 </h5>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/jugadores/3.jpg" alt="Jugador 3 ">
-                <p><p>Datos adicionales del jugador</p>
-</p>
-                <ul class="list-inline">
-					<B>Demarcación:</B> Medio Centro<BR>
-					<B>Equipo Actual:</B> S.D. Huesca<BR>
-					<B>Competición actual:</B> Primera División<BR>
-					<B>Edad:</B> 3 años (02/01/1994)<BR>
-                </ul>
-                <button class="btn btn-primary" data-dismiss="modal" type="button">
-                  <i class="fas fa-times"></i>
-                  Cerrar</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-
-  <!-- Modal -->
-  <div class="jugadores-modal modal fade" id="jugadoresModal4" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <div class="modal-body">
-                <!-- Project Details Go Here -->
-                <h5 class="text-uppercase"> Jugador 4</h5>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/jugadores/4.jpg" alt=" Jugador 4">
-                <p><p>Datos adicionales del jugador</p>
-</p>
-                <ul class="list-inline">
-					<B>Demarcación:</B> Medio Centro, Interior Derecho<BR>
-					<B>Equipo Actual:</B> Real Madrid C.F.<BR>
-					<B>Competición actual:</B> Primera División<BR>
-					<B>Edad:</B> 4 años (07/08/1996)<BR>
-                </ul>
-                <button class="btn btn-primary" data-dismiss="modal" type="button">
-                  <i class="fas fa-times"></i>
-                  Cerrar</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-
-  <!-- Modal -->
-  <div class="jugadores-modal modal fade" id="jugadoresModal5" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <div class="modal-body">
-                <!-- Project Details Go Here -->
-                <h5 class="text-uppercase">Jugador 5 </h5>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/jugadores/5.jpg" alt="Jugador 5 ">
-                <p><p>Datos adicionales del jugador</p>
-</p>
-                <ul class="list-inline">
-					<B>Demarcación:</B> Medio Centro<BR>
-					<B>Equipo Actual:</B> S.D. Huesca<BR>
-					<B>Competición actual:</B> Primera División<BR>
-					<B>Edad:</B> 5 años (02/01/1994)<BR>
-                </ul>
-                <button class="btn btn-primary" data-dismiss="modal" type="button">
-                  <i class="fas fa-times"></i>
-                  Cerrar</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-
-  <!-- Modal -->
-  <div class="jugadores-modal modal fade" id="jugadoresModal6" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <div class="modal-body">
-                <!-- Project Details Go Here -->
-                <h5 class="text-uppercase"> Jugador 6</h5>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/jugadores/6.jpg" alt=" Jugador 6">
-                <p><p>Datos adicionales del jugador</p>
-</p>
-                <ul class="list-inline">
-					<B>Demarcación:</B> Medio Centro, Interior Derecho<BR>
-					<B>Equipo Actual:</B> Real Madrid C.F.<BR>
-					<B>Competición actual:</B> Primera División<BR>
-					<B>Edad:</B> 6 años (07/08/1996)<BR>
-                </ul>
-                <button class="btn btn-primary" data-dismiss="modal" type="button">
-                  <i class="fas fa-times"></i>
-                  Cerrar</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-
-  <!-- Modal -->
-  <div class="jugadores-modal modal fade" id="jugadoresModal7" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <div class="modal-body">
-                <!-- Project Details Go Here -->
-                <h5 class="text-uppercase">Jugador 7 </h5>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/jugadores/7.jpg" alt="Jugador 7 ">
-                <p><p>Datos adicionales del jugador</p>
-</p>
-                <ul class="list-inline">
-					<B>Demarcación:</B> Medio Centro<BR>
-					<B>Equipo Actual:</B> S.D. Huesca<BR>
-					<B>Competición actual:</B> Primera División<BR>
-					<B>Edad:</B> 7 años (02/01/1994)<BR>
-                </ul>
-                <button class="btn btn-primary" data-dismiss="modal" type="button">
-                  <i class="fas fa-times"></i>
-                  Cerrar</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-
-  <!-- Modal -->
-  <div class="jugadores-modal modal fade" id="jugadoresModal8" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <div class="modal-body">
-                <!-- Project Details Go Here -->
-                <h5 class="text-uppercase"> Jugador 8</h5>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/jugadores/8.jpg" alt=" Jugador 8">
-                <p><p>Datos adicionales del jugador</p>
-</p>
-                <ul class="list-inline">
-					<B>Demarcación:</B> Medio Centro, Interior Derecho<BR>
-					<B>Equipo Actual:</B> Real Madrid C.F.<BR>
-					<B>Competición actual:</B> Primera División<BR>
-					<B>Edad:</B> 8 años (07/08/1996)<BR>
-                </ul>
-                <button class="btn btn-primary" data-dismiss="modal" type="button">
-                  <i class="fas fa-times"></i>
-                  Cerrar</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-		
-
-  <!-- Jugadoras Modals -->
-
-
-
-
-
-
-  <!-- Modal -->
-  <div class="jugadores-modal modal fade" id="jugadorasModal1" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <div class="modal-body">
-                <!-- Project Details Go Here -->
-                <h5 class="text-uppercase">Jugadora 1 </h5>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/jugadoras/1.jpg" alt="Jugadora 1 ">
-                <p><p>Datos adicionales de la jugadora</p>
-</p>
-                <ul class="list-inline">
-					<B>Demarcación:</B> Centrocampista<BR>
-					<B>Equipo Actual:</B> Rayo Femenino<BR>
-					<B>Competición actual:</B> Primera División<BR>
-					<B>Edad:</B> 1 años (20/04/1989)<BR>
-                </ul>
-                <button class="btn btn-primary" data-dismiss="modal" type="button">
-                  <i class="fas fa-times"></i>
-                  Cerrar</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-
-  <!-- Modal -->
-  <div class="jugadores-modal modal fade" id="jugadorasModal2" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <div class="modal-body">
-                <!-- Project Details Go Here -->
-                <h5 class="text-uppercase">Jugadora 2 </h5>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/jugadoras/2.jpg" alt="Jugadora 2 ">
-                <p><p>Datos adicionales de la jugadora</p>
-</p>
-                <ul class="list-inline">
-					<B>Demarcación:</B> Medio Centro<BR>
-					<B>Equipo Actual:</B> Rayo Femenino<BR>
-					<B>Competición actual:</B> Primera División<BR>
-					<B>Edad:</B> 2 años (02/10/1994)<BR>
-                </ul>
-                <button class="btn btn-primary" data-dismiss="modal" type="button">
-                  <i class="fas fa-times"></i>
-                  Cerrar</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-
-  <!-- Modal -->
-  <div class="jugadores-modal modal fade" id="jugadorasModal3" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <div class="modal-body">
-                <!-- Project Details Go Here -->
-                <h5 class="text-uppercase">Jugadora 3 </h5>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/jugadoras/3.jpg" alt="Jugadora 3 ">
-                <p><p>Datos adicionales de la jugadora</p>
-</p>
-                <ul class="list-inline">
-					<B>Demarcación:</B> Medio Centro<BR>
-					<B>Equipo Actual:</B> Rayo Femenino<BR>
-					<B>Competición actual:</B> Primera División<BR>
-					<B>Edad:</B> 3 años (20/12/1994)<BR>
-                </ul>
-                <button class="btn btn-primary" data-dismiss="modal" type="button">
-                  <i class="fas fa-times"></i>
-                  Cerrar</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-
-  <!-- Modal -->
-  <div class="jugadores-modal modal fade" id="jugadorasModal4" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <div class="modal-body">
-                <!-- Project Details Go Here -->
-                <h5 class="text-uppercase">Jugadora 4 </h5>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/jugadoras/4.jpg" alt="Jugadora 4 ">
-                <p><p>Datos adicionales de la jugadora</p>
-</p>
-                <ul class="list-inline">
-					<B>Demarcación:</B> Medio Centro<BR>
-					<B>Equipo Actual:</B> FC Barcelona<BR>
-					<B>Competición actual:</B> Primera División<BR>
-					<B>Edad:</B> 4 años (12/03/1990)<BR>
-                </ul>
-                <button class="btn btn-primary" data-dismiss="modal" type="button">
-                  <i class="fas fa-times"></i>
-                  Cerrar</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-
-  <!-- Modal -->
-  <div class="jugadores-modal modal fade" id="jugadorasModal5" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <div class="modal-body">
-                <!-- Project Details Go Here -->
-                <h5 class="text-uppercase">Jugadora 5 </h5>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/jugadoras/5.jpg" alt="Jugadora 5 ">
-                <p><p>Datos adicionales de la jugadora</p>
-</p>
-                <ul class="list-inline">
-					<B>Demarcación:</B> Medio Centro<BR>
-					<B>Equipo Actual:</B> Madrid CFF<BR>
-					<B>Competición actual:</B> Primera División<BR>
-					<B>Edad:</B> 5 años (24/05/1989)<BR>
-                </ul>
-                <button class="btn btn-primary" data-dismiss="modal" type="button">
-                  <i class="fas fa-times"></i>
-                  Cerrar</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-
-  <!-- Modal -->
-  <div class="jugadores-modal modal fade" id="jugadorasModal6" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <div class="modal-body">
-                <!-- Project Details Go Here -->
-                <h5 class="text-uppercase">Jugadora 6 </h5>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/jugadoras/6.jpg" alt="Jugadora 6 ">
-                <p><p>Datos adicionales de la jugadora</p>
-</p>
-                <ul class="list-inline">
-					<B>Demarcación:</B> Medio Centro<BR>
-					<B>Equipo Actual:</B> FC Barcelona<BR>
-					<B>Competición actual:</B> Primera División<BR>
-					<B>Edad:</B> 6 años (25/06/1985)<BR>
-                </ul>
-                <button class="btn btn-primary" data-dismiss="modal" type="button">
-                  <i class="fas fa-times"></i>
-                  Cerrar</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-
-  <!-- Modal -->
-  <div class="jugadores-modal modal fade" id="jugadorasModal7" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <div class="modal-body">
-                <!-- Project Details Go Here -->
-                <h5 class="text-uppercase">Jugadora 7 </h5>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/jugadoras/7.jpg" alt="Jugadora 7 ">
-                <p><p>Datos adicionales de la jugadora</p>
-</p>
-                <ul class="list-inline">
-					<B>Demarcación:</B> Medio Centro<BR>
-					<B>Equipo Actual:</B> VCF Femenino<BR>
-					<B>Competición actual:</B> Primera División<BR>
-					<B>Edad:</B> 7 años (27/09/1987)<BR>
-                </ul>
-                <button class="btn btn-primary" data-dismiss="modal" type="button">
-                  <i class="fas fa-times"></i>
-                  Cerrar</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-
-  <!-- Modal -->
-  <div class="jugadores-modal modal fade" id="jugadorasModal8" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <div class="modal-body">
-                <!-- Project Details Go Here -->
-                <h5 class="text-uppercase">Jugadora 8 </h5>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/jugadoras/8.jpg" alt="Jugadora 8 ">
-                <p><p>Datos adicionales de la jugadora</p>
-</p>
-                <ul class="list-inline">
-					<B>Demarcación:</B> Medio Centro<BR>
-					<B>Equipo Actual:</B> Málaga CF<BR>
-					<B>Competición actual:</B> Primera División<BR>
-					<B>Edad:</B> 8 años (09/01/1989)<BR>
-                </ul>
-                <button class="btn btn-primary" data-dismiss="modal" type="button">
-                  <i class="fas fa-times"></i>
-                  Cerrar</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-		
-
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
