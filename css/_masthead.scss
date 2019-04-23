@@ -6,21 +6,6 @@ header.masthead {
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
-  #imagen1 {
-	min-height: 491px;
-    background-image: url('../img/header-bg.jpg');
-	  text-align: center;
-	  color: white;
-	  background-repeat: no-repeat;
-	  background-attachment: scroll;
-	  background-position: center center;
-	  background-size: cover;
-	  text-align: center;
-	  color: white;
-	  background-repeat: no-repeat;
-	  background-attachment: scroll;
-	  background-position: center center;
-	  background-size: cover;
   .intro-text {
     padding-top: 150px;
     padding-bottom: 100px;
@@ -40,23 +25,49 @@ header.masthead {
       @include heading-font;
     }
   }
+  .imagen {
+	min-height: 491px;
+    text-align: center;
+    color: white;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
   }
 
+  #imagen1 {
+    background-image: url('../img/header-bg.jpg');
+  }
   #imagen2 {
-	min-height: 491px;
-    background-image: url('../img/header-ff.jpg');
-	  text-align: center;
-	  color: white;
-	  background-repeat: no-repeat;
-	  background-attachment: scroll;
-	  background-position: center center;
-	  background-size: cover;
-	  text-align: center;
-	  color: white;
-	  background-repeat: no-repeat;
-	  background-attachment: scroll;
-	  background-position: center center;
-	  background-size: cover;
+    background-image: url('../img/jeffrey-f-lin-673417-unsplash.jpg');
+    background-position: center top;
+  }
+  #imagen3 {
+    background-image: url('../img/jeffrey-f-lin-1462109-unsplash.jpg');
+  }
+  #imagen4 {
+    background-image: url('../img/athletes-football-players-game-1198172.jpg');
+	background-attachment: fixed;
+  }
+  #imagen5 {
+    background-image: url('../img/athletes-ball-daytime-685382.jpg');
+  }
+  #imagen6 {
+    background-image: url('../img/athletes-game-girls-1198174.jpg');
+    background-position: center top;
+  }
+  #imagen7 {
+    background-image: url('../img/jeffrey-f-lin-673463-unsplash.jpg');
+  }
+  #imagen8 {
+    background-image: url('../img/ff1.jpg');
+  }
   .intro-text {
     padding-top: 150px;
     padding-bottom: 100px;
@@ -75,56 +86,33 @@ header.masthead {
       margin-bottom: 25px;
       @include heading-font;
     }
-  }
   }
   
  
   }
 @media(min-width:768px) {
   header.masthead {
-	  #imagen1 {
-		min-height: 765px;
-		.intro-text {
-		  padding-top: 300px;
-		  padding-bottom: 200px;
-		  margin: 0 20px;
-		  .intro-lead-in {
-			font-size: 40px;
-			font-style: italic;
-			line-height: 40px;
-			margin-bottom: 25px;
-			@include serif-font;
-		  }
-		  .intro-heading {
-			font-size: 75px;
-			font-weight: 700;
-			line-height: 75px;
-			margin-bottom: 0px;
-			@include heading-font;
-		  }
-		}
+	.intro-text {
+	  padding-top: 300px;
+	  padding-bottom: 200px;
+	  margin: 0 20px;
+	  .intro-lead-in {
+		font-size: 40px;
+		font-style: italic;
+		line-height: 40px;
+		margin-bottom: 25px;
+		@include serif-font;
 	  }
-	  #imagen2 {
-		min-height: 765px;
-		.intro-text {
-		  padding-top: 300px;
-		  padding-bottom: 200px;
-		  margin: 0 20px;
-		  .intro-lead-in {
-			font-size: 40px;
-			font-style: italic;
-			line-height: 40px;
-			margin-bottom: 25px;
-			@include serif-font;
-		  }
-		  .intro-heading {
-			font-size: 75px;
-			font-weight: 700;
-			line-height: 75px;
-			margin-bottom: 0px;
-			@include heading-font;
-		  }
-		}
+	  .intro-heading {
+		font-size: 75px;
+		font-weight: 700;
+		line-height: 75px;
+		margin-bottom: 0px;
+		@include heading-font;
 	  }
+	}
+    .imagen {
+	  min-height: 765px;
+	}
   }
 }
