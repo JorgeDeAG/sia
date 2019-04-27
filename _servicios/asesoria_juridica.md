@@ -2,6 +2,6 @@
 posicion: 30
 servicio: Asesoría Jurídica
 icono: fa-user-tie
-descripcion: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+descripcion: Negociar un nuevo contrato o una renovación es también parte de la carrera futbolística<br>SoccerIntAgents negocia tu contrato a través de su departamento jurídico para que obtengas las mejores condiciones
 ---
 Descripción detallada del servicio
