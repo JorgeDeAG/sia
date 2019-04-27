@@ -2,6 +2,6 @@
 posicion: 40
 servicio: Asesoría Laboral
 icono: fa-briefcase
-descripcion: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+descripcion: Tu preparación laboral es con lo que te ganarás la vida una vez que dejes de entrenar y jugar. Por eso los estudios juegan un papel importante y te asesoramos para que elijas la mejor opción.
 ---
 Descripción detallada del servicio
