@@ -2,6 +2,5 @@
 posicion: 50
 servicio: Asesoría Fiscal
 icono: fa-euro-sign
-descripcion: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
----
+descripcion: Tus ahorros te darán tranquilidad cuando termines tu carrera deportiva. Con nuestra estrategia vas a ahorrar un 20% más sin darte cuenta.
 Descripción detallada del servicio
