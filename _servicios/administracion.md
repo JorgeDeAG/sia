@@ -2,6 +2,6 @@
 posicion: 60
 servicio: Administración
 icono: fa-file-invoice
-descripcion: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+descripcion: Despreocúpate de las gestiones administrativas. Nosotros las gestionamos por ti.
 ---
 Descripción detallada del servicio
