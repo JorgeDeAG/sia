@@ -2,6 +2,6 @@
 posicion: 90
 servicio: Comunicación
 icono: fa-satellite-dish
-descripcion: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+descripcion: Con una adecuada comunicación teniendo en cuenta tus objetivos, mejoras tu visibilidad y tus posibilidades 
 ---
 Descripción detallada del servicio
