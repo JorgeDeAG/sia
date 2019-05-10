@@ -1,5 +1,5 @@
 ---
-posicion: 70
+posicion: 60
 nombre: Antonio Ríos
 funcion: Responsable Fútbol Base
 foto: ar.jpg
