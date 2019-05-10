@@ -1,7 +1,7 @@
 ---
 posicion: 55
 nombre: Emma Marqués
-funcion: Responsable Futbol Femenino
+funcion: Responsable Fútbol Femenino
 foto: em.jpg
 ---
 

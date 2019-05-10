@@ -2,7 +2,7 @@
 posicion: 40
 nombre: Alberto Ortiz 
 funcion: CEO Player Agent
-foto: an.jpg
+foto: ao.jpg
 CEO: true
 ---
 Currículum...

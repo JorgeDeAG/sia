@@ -2,7 +2,7 @@
 posicion: 30
 nombre: Diego Leon
 funcion: CEO Fútbol Internacional
-foto: an.jpg
+foto: dl.jpg
 CEO: true
 ---
 Currículum...
