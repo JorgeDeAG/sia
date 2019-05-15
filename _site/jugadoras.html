@@ -61,12 +61,12 @@
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="index.html#servicios">Servicios</a>
           </li>
-          <li class="nav-item">
+          <!--li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="jugadores.html">Jugadores</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="jugadoras.html">Jugadoras</a>
-          </li>
+          </li-->
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="index.html#equipo">Equipo</a>
           </li>
@@ -295,41 +295,6 @@
 
   
   
-    <!-- Footer -->
-  <footer>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4">
-          <span class="copyright">Copyright &copy; soccerintagents.com 2019</span>
-        </div>
-        <div class="col-md-4">
-          <ul class="list-inline social-buttons">
-            <li class="list-inline-item">
-              <a target="_blank" href="https://www.instagram.com/soccer_international_agents/?hl=es">
-                <i class="fab fa-instagram"></i>
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div class="col-md-4">
-          <ul class="list-inline quicklinks">
-            <li class="list-inline-item">
-              <a href="#">Aviso Legal </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#"> P+rotección de datos </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#"> Cookies</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </footer>
-
-
-
   
   
   <!-- Jugadoras Modals -->
@@ -642,6 +607,108 @@
   </div>
 		
 
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <span class="copyright">Copyright &copy; soccerintagents.com 2019</span>
+        </div>
+        <div class="col-md-4">
+          <ul class="list-inline social-buttons">
+            <li class="list-inline-item">
+              <a target="_blank" href="https://www.instagram.com/soccer_international_agents/?hl=es">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <ul class="list-inline quicklinks">
+            <li class="list-inline-item">
+			  <a data-toggle="modal" href="#avisoModal" onclick="$('#avisoCuerpo').load('aviso.html');">Aviso Legal </a>
+            </li>
+            <li class="list-inline-item">
+              <a data-toggle="modal" href="#proteccionModal" onclick="$('#proteccionCuerpo').load('proteccion.html');"> Protección de datos </a>
+            </li>
+            <li class="list-inline-item">
+              <a data-toggle="modal" href="#cookiesModal" onclick="$('#cookiesCuerpo').load('cookies.html');"> Cookies </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+	
+  <!-- Modal Aviso -->
+  <div class="modal fade" id="avisoModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body" id="avisoCuerpo">
+			  ...
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Protección -->
+  <div class="modal fade" id="proteccionModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body" id="proteccionCuerpo">
+				***
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Cookies -->
+  <div class="modal fade" id="cookiesModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body" id="cookiesCuerpo">
+				***
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<div id="cajacookies" style="display: none">
+	<p>Esta web utiliza cookies para mejorar tu navegación. Si continúas navegando estás dando tu consentimiento y consideramos que aceptas su uso.<BR>              <a data-toggle="modal" href="#cookiesModal" onclick="$('#cookiesCuerpo').load('cookies.html');">Más información</a>.<BR>
+<button onclick="aceptarCookies()" class="btn btn-primary btn-xl text-uppercase">Aceptar y cerrar éste mensaje</button>
+</div>
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
@@ -656,6 +723,29 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/agency.min.js"></script>
+
+<script>
+function compruebaAceptaCookies() {
+//localStorage.removeItem("aceptaCookies");
+  if(!localStorage.aceptaCookies){
+    cajacookies.style.display = '';
+  }
+}
+
+function aceptarCookies() {
+  localStorage.aceptaCookies = 'true';
+  cajacookies.style.display = 'none';
+}
+
+$(document).ready(function () {
+  compruebaAceptaCookies();
+});
+</script>
+
+</footer>
+
+
+
 
 </body>
 

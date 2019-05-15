@@ -16,6 +16,7 @@
   <!-- Custom fonts for this template -->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
   <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
@@ -61,12 +62,12 @@
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="index.html#servicios">Servicios</a>
           </li>
-          <li class="nav-item">
+          <!--li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="jugadores.html">Jugadores</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="jugadoras.html">Jugadoras</a>
-          </li>
+          </li-->
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="index.html#equipo">Equipo</a>
           </li>
@@ -114,7 +115,7 @@
         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
     </ol>
     <div class="carousel-inner">
-        <div id="imagen1" class="carousel-item active imagen" onclick="window.location='jugadores.html';">
+        <div id="imagen1" class="carousel-item active imagen" honclick="window.location='jugadores.html';">
 			<div class="container">
 			  <div class="intro-text">
 				<div class="intro-lead-in">No te quedes donde estás</div>
@@ -124,7 +125,7 @@
             <div class="carousel-caption d-none d-md-block">
             </div>
         </div>
-        <div id="imagen2" class="carousel-item imagen" onclick="window.location='jugadoras.html';">
+        <div id="imagen2" class="carousel-item imagen" honclick="window.location='jugadoras.html';">
 			<div class="container">
 			  <div class="intro-text">
 				<div class="intro-lead-in">Fútbol femenino</div>
@@ -524,23 +525,90 @@
         <div class="col-md-4">
           <ul class="list-inline quicklinks">
             <li class="list-inline-item">
-              <a href="#">Aviso Legal </a>
+			  <a data-toggle="modal" href="#avisoModal" onclick="$('#avisoCuerpo').load('aviso.html');">Aviso Legal </a>
             </li>
             <li class="list-inline-item">
-              <a href="#"> P+rotección de datos </a>
+              <a data-toggle="modal" href="#proteccionModal" onclick="$('#proteccionCuerpo').load('proteccion.html');"> Protección de datos </a>
             </li>
             <li class="list-inline-item">
-              <a href="#"> Cookies</a>
+              <a data-toggle="modal" href="#cookiesModal" onclick="$('#cookiesCuerpo').load('cookies.html');"> Cookies </a>
             </li>
           </ul>
         </div>
       </div>
     </div>
-  </footer>
+	
+  <!-- Modal Aviso -->
+  <div class="modal fade" id="avisoModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body" id="avisoCuerpo">
+			  ...
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
+  <!-- Modal Protección -->
+  <div class="modal fade" id="proteccionModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body" id="proteccionCuerpo">
+				***
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
+  <!-- Modal Cookies -->
+  <div class="modal fade" id="cookiesModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body" id="cookiesCuerpo">
+				***
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-  
+<div id="cajacookies" style="display: none">
+	<p>Esta web utiliza cookies para mejorar tu navegación. Si continúas navegando estás dando tu consentimiento y consideramos que aceptas su uso.<BR>              <a data-toggle="modal" href="#cookiesModal" onclick="$('#cookiesCuerpo').load('cookies.html');">Más información</a>.<BR>
+<button onclick="aceptarCookies()" class="btn btn-primary btn-xl text-uppercase">Aceptar y cerrar éste mensaje</button>
+</div>
+
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -554,6 +622,28 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/agency.min.js"></script>
+
+<script>
+function compruebaAceptaCookies() {
+//localStorage.removeItem("aceptaCookies");
+  if(!localStorage.aceptaCookies){
+    cajacookies.style.display = '';
+  }
+}
+
+function aceptarCookies() {
+  localStorage.aceptaCookies = 'true';
+  cajacookies.style.display = 'none';
+}
+
+$(document).ready(function () {
+  compruebaAceptaCookies();
+});
+</script>
+
+</footer>
+
+
 
 </body>
 
