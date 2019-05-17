@@ -1,7 +1,8 @@
 ---
 posicion: 20
 nombre: Sergio Soriano
-funcion: CEO Player Agent
+funcion: Secretaría Técnica
+e-mail: s.soriano@soccerintagents.com
 foto: ss.jpg
 CEO: true
 ---
