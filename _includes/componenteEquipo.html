@@ -1,0 +1,44 @@
+        <div class="{{ include.componente.col }}">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/equipo/{{ include.componente.foto }}" alt="{{ include.componente.nombre }} {{ include.componente.funcion }}">
+            <h4>{{ include.componente.nombre }}</h4>
+            <p class="text-muted">{{ include.componente.funcion }}</p>
+            <ul class="list-inline social-buttons">
+			  {% if include.componente.instagram %}
+              <li class="list-inline-item">
+                <a target="_blank" href="{{ include.componente.instagram }}">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </li>
+			  {% endif %}
+			  {% if include.componente.twitter %}
+              <li class="list-inline-item">
+                <a target="_blank" href="{{ include.componente.twitter }}">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+			  {% endif %}
+			  {% if include.componente.facebook %}
+              <li class="list-inline-item">
+                <a target="_blank" href="{{ include.componente.facebook }}">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+			  {% endif %}
+			  {% if include.componente.linkedin %}
+              <li class="list-inline-item">
+                <a target="_blank" href="{{ include.componente.linkedin }}">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+			  {% endif %}
+			  {% if include.componente.e-mail %}
+              <li class="list-inline-item">
+                <a href="mailto:{{ include.componente.e-mail }}">
+                  <i class="fa fa-envelope"></i>
+                </a>
+              </li>
+			  {% endif %}
+            </ul>
+          </div>
+        </div>

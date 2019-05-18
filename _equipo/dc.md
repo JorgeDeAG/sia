@@ -1,7 +1,10 @@
 ---
-posicion: 50
+posicion: 60
+col: col-sm-6
+seccion: Intermediarios
 nombre: David Córcoles
-funcion: Player Agent
+funcion: Intermediario
+e-mail: d.corcoles@soccerintagents.com
 foto: dc.jpg
 ---
 Currículum...
