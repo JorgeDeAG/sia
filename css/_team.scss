@@ -1,4 +1,10 @@
 // Styling for the team section
+#equipo {
+	hr {
+		border: 1px solid #b19263;
+		width: 80%
+	}
+}
 .team-member {
   margin-bottom: 50px;
   text-align: center;
@@ -15,4 +21,19 @@
   p {
     margin-top: 0;
   }
+}
+
+.componente_cabecera {
+  font-color: #FFFFFF;
+  background-color: $primary;
+  padding-top: 5px;
+  border-style: solid;
+  border-width: 1px 1px 0 1px;
+}
+
+
+.componente {
+    padding-top: 35px;
+	border: 1px solid;
+	background-color: #EEE;
 }
