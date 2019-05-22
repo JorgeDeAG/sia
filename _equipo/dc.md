@@ -1,6 +1,6 @@
 ---
 posicion: 60
-col: col-sm-6
+col: col-sm-4
 seccion: Intermediarios
 nombre: David Córcoles
 funcion: Intermediario
