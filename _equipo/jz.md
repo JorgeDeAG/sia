@@ -5,6 +5,6 @@ seccion: Intermediarios
 nombre: Joshua Zapata
 funcion: Intermediario
 e-mail: j.zapata@soccerintagents.com
-foto: an.jpg
+foto: jz.jpg
 ---
 Currículum...
