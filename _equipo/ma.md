@@ -4,7 +4,7 @@ col: col-sm-12
 seccion: Departamento Jurídico
 nombre: Marcelo R. Altónaga
 funcion: Abogado
-e-mail: mr.altonaga@soccerintagents.com
+e-mail: m.altonaga@soccerintagents.com
 foto: ma.jpg
 ---
 
