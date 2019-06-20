@@ -67,13 +67,13 @@
 {% assign impar = jugador.posicion | modulo:2 %}
 {% assign ctr = ctr | plus:1 %}
         <div class="col-md-4 col-sm-4 jugadores-item">
-          <a class="jugadores-link" data-toggle="modal" href="#jugadoresModal{{ctr}}">
+          <a class="jugadores-link" href="{{jugador.url}}">
             <div class="jugadores-hover">
               <div class="jugadores-hover-content">
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img id="foto" class="img-fluid foto" src="img/jugadores/{{ jugador.foto }}" alt="{{ jugador.nombre }} {{ jugador.apellidos }}">
+            <img id="foto" class="img-fluid foto" src="img/jugadores/{{ jugador.foto }}" alt="{{ jugador.nombre }}">
           </a>
           <div class="jugadores-caption">
             <h6>{{ jugador.nombre }} {{ jugador.apellidos }}</h6>
@@ -81,7 +81,6 @@
 			<B>Nacionalidad:</B> {{ jugador.nacionalidad }}<BR>
 			<B>Demarcación:</B> {{ jugador.demarcacion }}<BR>
 			<B>Equipo Actual:</B> {{ jugador.equipo_actual }}<BR>
-			<B>Competición actual:</B> {{ jugador.competicion_actual }}<BR>
 			<B>Fecha de nacimiento:</B> {{ jugador.fecha_de_nacimiento | date: "%d/%m/%Y" }}<BR>
 			</p>
           </div>
@@ -93,49 +92,6 @@
 
 
   
-  <!-- Jugadores Modals -->
-
-{% assign jugadores_ordenados = site.jugadores | sort:"posicion" %}
-{% assign ctr = 0 %}
-{% for jugador in jugadores_ordenados %}
-{% assign impar = jugador.posicion | modulo:2 %}
-{% assign ctr = ctr | plus:1 %}
-  <!-- Modal -->
-  <div class="jugadores-modal modal fade" id="jugadoresModal{{ctr}}" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <div class="modal-body">
-                <!-- Project Details Go Here -->
-                <h5 class="text-uppercase">{{ jugador.nombre }} {{ jugador.apellidos }}</h5>
-                <p class="item-intro text-muted">---</p>
-                <img class="img-fluid d-block mx-auto" src="img/jugadores/{{ jugador.foto }}" alt="{{ jugador.nombre }} {{ jugador.apellidos }}">
-                <p>{{ jugador.content }}</p>
-                <ul class="list-inline">
-					<B>Demarcación:</B> {{ jugador.demarcacion }}<BR>
-					<B>Equipo Actual:</B> {{ jugador.equipo_actual }}<BR>
-					<B>Competición actual:</B> {{ jugador.competicion_actual }}<BR>
-					<B>Edad:</B> {{ctr}} años ({{ jugador.fecha_de_nacimiento }})<BR>
-                </ul>
-                <button class="btn btn-primary" data-dismiss="modal" type="button">
-                  <i class="fas fa-times"></i>
-                  Cerrar</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-{% endfor %}		
-
 {% include pie.html %}
   
 

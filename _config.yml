@@ -29,5 +29,20 @@ theme: minima
 collections:
   servicios:
   jugadores:
+    output: true
   jugadoras:
+    output: true
   equipo:
+
+defaults:
+  - scope:
+      path: ""
+      type: _jugadores
+    values:
+      layout: detalles
+
+  - scope:
+      path: ""
+      type: jugadoras
+    values:
+      layout: detalles

@@ -1,4 +1,5 @@
 ---
+layout: detalles
 posicion: 10
 nombre: Bruno
 apellidos: Fornaroli

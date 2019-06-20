@@ -1,19 +1,19 @@
-# Calculate time difference
+# Calcular la edad según la fecha de nacimiento
 #
-# Input: Any time format, 'Time' should recognize it.
-# Example: {{ time_a | time_diff:time_b }}
+# Input: Cualquier formato de fecha reconocido por 'Time'
+# Ejemplo: {{ fecha_de_nacimiento | edad }}
 
-module Jekyll
-  module TimeDiffFilter
-    def time_diff(a, b)
-
-      a_time = Time.parse(a)
-      b_time = Time.parse(b)
-
-      diff = a_time - b_time
-      Time.at(diff).utc.strftime("%I:%M")
-    end
-  end
-end
-
-Liquid::Template.register_filter(Jekyll::TimeDiffFilter)
+#  module calculo
+#    def edad(fnac)
+#
+#      fnac_time = Time.parse(fnac)
+#      b_time = Time.parse(b)
+#
+#      diff = a_time - b_time
+#      Time.at(diff).utc.strftime("%I:%M")
+#    end
+#  end
+#module Jekyll
+#end
+#
+#Liquid::Template.register_filter(Jekyll::TimeDiffFilter)
