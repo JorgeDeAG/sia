@@ -6,6 +6,14 @@
   .foto {
 	width: 250px;
   }
+  .cabecera {
+	background-color: #00000088;
+	padding-bottom: 6px;
+  }
+  .section-heading {
+    padding-top: 10px;
+    color: $primary;
+  }
   .jugadores-item {
     right: 0;
     margin: 7px;
@@ -84,10 +92,6 @@
     }
   }
 }
-.section-heading {
-  padding-top: 10px;
-  color: $primary;
-}
 
 .card-header {
   color: #DDDDDD;
@@ -136,3 +140,4 @@
 	text-align: center;
 	color: $primary;
 }
+
