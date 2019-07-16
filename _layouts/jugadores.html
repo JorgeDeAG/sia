@@ -66,8 +66,8 @@
 {% assign nombre_completo = jugador.nombre | append: " " | append: jugador.apellidos %}
 {% assign impar = jugador.posicion | modulo:2 %}
 {% assign ctr = ctr | plus:1 %}
-<div class="col-md-4 col-sm-4 jugadores-item">
-	<div class="card" style="width: 18rem;" onclick="window.location='{{jugador.url}}'">
+<div class="col-md col-sm jugadores-item">
+	<div class="card" onclick="window.location='{{jugador.url}}'">
 	  <a class="jugadores-link" href="{{jugador.url}}">
 		<div class="jugadores-hover">
 		  <div class="jugadores-hover-content">

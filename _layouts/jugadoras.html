@@ -63,11 +63,10 @@
 {% assign jugadoras_ordenados = site.jugadoras | sort:"posicion" %}
 {% assign ctr = 0 %}
 {% for jugadora in jugadoras_ordenados %}
-{% assign nombre_completo = jugadora.nombre | append: " " | append: jugadora.apellidos %}
 {% assign impar = jugadora.posicion | modulo:2 %}
 {% assign ctr = ctr | plus:1 %}
-<div class="col-md-4 col-sm-4 jugadores-item">
-	<div class="card" style="width: 18rem;" onclick="window.location='{{jugadora.url}}'">
+<div class="col-md col-sm jugadores-item">
+	<div class="card" onclick="window.location='{{jugadora.url}}'">
 	  <a class="jugadores-link" href="{{jugadora.url}}">
 		<div class="jugadores-hover">
 		  <div class="jugadores-hover-content">
