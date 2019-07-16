@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
 
@@ -50,92 +50,54 @@
 
   {% include menu.html %}
 
-
-  <!-- jugadores Grid -->
+  <!-- jugadoras Grid -->
   <section class="bg-light" id="jugadoras">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase">Jugadoras</h2>
-          <h3 class="section-subheading text-muted">---</h3>
         </div>
       </div>
       <div class="row">
 
-{% assign jugadoras_ordenadas = site.jugadoras | sort:"posicion" %}
+{% assign jugadoras_ordenados = site.jugadoras | sort:"posicion" %}
 {% assign ctr = 0 %}
-{% for jugadora in jugadoras_ordenadas %}
+{% for jugadora in jugadoras_ordenados %}
+{% assign nombre_completo = jugadora.nombre | append: " " | append: jugadora.apellidos %}
 {% assign impar = jugadora.posicion | modulo:2 %}
 {% assign ctr = ctr | plus:1 %}
-        <div class="col-md-4 col-sm-4 jugadores-item">
-          <a class="jugadores-link" data-toggle="modal" href="#jugadorasModal{{ctr}}">
-            <div class="jugadores-hover">
-              <div class="jugadores-hover-content">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img id="foto" class="img-fluid foto" src="img/jugadoras/{{ jugadora.foto }}" alt="{{ jugadora.nombre }} {{ jugadora.apellidos }}">
-          </a>
-          <div class="jugadores-caption">
-            <h6>{{ jugadora.nombre }} {{ jugadora.apellidos }}</h6>
+<div class="col-md-4 col-sm-4 jugadores-item">
+	<div class="card" style="width: 18rem;" onclick="window.location='{{jugadora.url}}'">
+	  <a class="jugadores-link" href="{{jugadora.url}}">
+		<div class="jugadores-hover">
+		  <div class="jugadores-hover-content">
+			<i class="fas fa-plus fa-3x"></i>
+		  </div>
+		</div>
+		<img class="card-img-top" src="img/jugadoras/{{ jugadora.foto }}" alt="{{ nombre_completo }}">
+	  </a>
+	  <div class="card-body">
+        <h6 class="card-title">{{ nombre_completo }}</h6>
+		<p class="card-text">
             <p class="text-muted ">
 			<B>Nacionalidad:</B> {{ jugadora.nacionalidad }}<BR>
 			<B>Demarcación:</B> {{ jugadora.demarcacion }}<BR>
 			<B>Equipo Actual:</B> {{ jugadora.equipo_actual }}<BR>
-			<B>Fecha de nacimiento:</B> {{ jugadora.fecha_de_nacimiento | date: "%d/%m/%Y" }}<BR>
+			{% assign fnac = jugadora.fecha_de_nacimiento | date: '%s' %}
+			{% assign nowTimestamp = 'now' | date: '%s' %}
+			{% assign diffSeconds = nowTimestamp | minus: fnac %}
+			{% assign edad = diffSeconds | divided_by: 3600 | divided_by: 24 | divided_by: 365 %}
+			<B>Edad: </B>{{ edad }} años<BR>
 			</p>
           </div>
         </div>
+	</div>
 {% endfor %}		
       </div>
     </div>
   </section>
-
   
   
-  
-  
-  <!-- Jugadoras Modals -->
-
-{% assign jugadoras_ordenadas = site.jugadoras | sort:"posicion" %}
-{% assign ctr = 0 %}
-{% for jugadora in jugadoras_ordenadas %}
-{% assign impar = jugadora.posicion | modulo:2 %}
-{% assign ctr = ctr | plus:1 %}
-  <!-- Modal -->
-  <div class="jugadores-modal modal fade" id="jugadorasModal{{ctr}}" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <div class="modal-body">
-                <!-- Project Details Go Here -->
-                <h5 class="text-uppercase">{{ jugadora.nombre }} {{ jugadora.apellidos }}</h5>
-                <p class="item-intro text-muted">---</p>
-                <img class="img-fluid d-block mx-auto" src="img/jugadoras/{{ jugadora.foto }}" alt="{{ jugadora.nombre }} {{ jugadora.apellidos }}">
-                <p>{{ jugadora.content }}</p>
-                <ul class="list-inline">
-					<B>Demarcación:</B> {{ jugadora.demarcacion }}<BR>
-					<B>Equipo Actual:</B> {{ jugadora.equipo_actual }}<BR>
-					<B>Edad:</B> {{ctr}} años ({{ jugadora.fecha_de_nacimiento }})<BR>
-                </ul>
-                <button class="btn btn-primary" data-dismiss="modal" type="button">
-                  <i class="fas fa-times"></i>
-                  Cerrar</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-{% endfor %}		
 
 {% include pie.html %}
 

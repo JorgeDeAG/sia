@@ -11,87 +11,150 @@
   <title>{{ site.titulo }}</title>
 
   <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Custom fonts for this template -->
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="../vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
   <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
 
-  <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
-  <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="manifest" href="/manifest.json">
+  <link rel="apple-touch-icon" sizes="57x57" href="../apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="../apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="../apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="../apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="../apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="../apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="../apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="../apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="../apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="../android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="../favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+  <link rel="manifest" href="../manifest.json">
   <meta name="msapplication-TileColor" content="#ffffff">
-  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="msapplication-TileImage" content="../ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
 
   <!--link rel="shortcut icon" type="image/x-icon" href="favicon.png"-->
   
   <!-- Custom styles for this template -->
-  <link href="css/agency.css" rel="stylesheet">
+  <link href="../css/agency.css" rel="stylesheet">
 
 </head>
 
 <body id="page-top">
-
-  {% include menu.html %}
+  {% include menu.html relativo = "../" %}
+  {% assign nombre_completo = page.nombre | append: " " | append: page.apellidos %}
 
   <!-- jugadores Grid -->
   <section class="bg-light" id="jugadores">
     <div class="container">
       <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">Jugadores</h2>
-          <h3 class="section-subheading text-muted">---</h3>
-        </div>
-      </div>
-      <div class="row">
+	 <div class="card">
+	  <div class="card-body">
+     	<div class="col-lg-12 text-center">
+			<button type="button" class="close" aria-label="Close" onclick="history.back(-1)">
+			  <span aria-hidden="true">&times;</span>
+			</button>
+          <h2 class="section-heading text-uppercase">{{ nombre_completo }}</h2>
+			<ul class="list-inline">
+				<B>Nacionalidad: </B>{{ page.nacionalidad }}<BR>
+				<B>Demarcación: </B>{{ page.demarcacion }}<BR>
+				<B>Equipo Actual: </B> {{ page.equipo_actual }}<BR>
+				{% if page.peso.size > 1 %}
+				  <B>Peso: </B> {{ page.peso }}<BR>
+				{% endif %}
+				<B>Estatura: </B> {{ page.estatura }}<BR>
+				{% if page.pie.size > 2 %}
+				  <B>Pie: </B> {{ page.pie }}<BR>
+				{% endif %}
+				{% assign fnac = page.fecha_de_nacimiento | date: '%s' %}
+				{% assign nowTimestamp = 'now' | date: '%s' %}
+				{% assign diffSeconds = nowTimestamp | minus: fnac %}
+				{% assign edad = diffSeconds | divided_by: 3600 | divided_by: 24 | divided_by: 365 %}
+				<B>Fecha de nacimiento: </B> {{ page.fecha_de_nacimiento | date: '%d/%m/%y' }}<BR>
+				<B>Edad: </B>{{ edad }} años<BR>
+				{% if page.estudios.size > 2 %}
+				  <B>Estudios: </B>{{ page.estudios }}<BR>
+				{% endif %}
+			</ul>
+			{% assign ruta = page.url | split: "/" %}
+			<img class="img-fluid d-block mx-auto" src="../img/{{ ruta[1] }}/{{ page.foto }}" alt="{{ nombre_completo }}">
+			{% assign video = page.video | split: "youtube" %}
+			{% assign esYoutube = video | size %}
+			{% if esYoutube > 1 %}
+				<BR><BR>
+				<div class='embed-container'>
+				  <iframe title="YouTube video player" width="649" height="390" src="{{ page.video }}" frameborder="0" allowfullscreen></iframe>
+				</div>
+			{% endif %}
+			{% assign vimeo = page.video | split: "vimeo" %}
+			{% assign esVimeo = vimeo | size %}
+			{% if esVimeo > 1 %}
+				<BR><BR>
+				<div class='embed-container'>
+					<iframe src="{{ page.video }}"  width="649" height="390" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+				</div>
+			{% endif %}
+			<p>{{ page.content }}</p>
+	    </div>
+		
+		  {% assign trayectoria = page.trayectoria | split: "*" %}
+		  {% assign haytrayectoria = trayectoria |size %}
+		  {% if haytrayectoria > 0 %}
+	 <div class="card trayectoria">
+          <h4 class="card-header">Trayectoria Deportiva</h4>
+		<table class="table table-striped table-dark">
+		  <tbody>
+			  {% for entrada in trayectoria %}
+			<tr>
+				{% assign columnas = entrada | split: "#" %}
+			    {% for col in columnas %}
+					<td>{{ col }}</td>
+			    {% endfor %}
+			</tr>
+			  {% endfor %}
+		  </tbody>
+		</table></div>
+		  {% endif %}
 
-  <div class="jugadores-modal modal fade" id="pagesModal{{ctr}}" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <div class="modal-body">
-                <!-- Project Details Go Here -->
-                <h5 class="text-uppercase">{{ page.nombre }} {{ page.apellidos }}</h5>
-                <p class="item-intro text-muted">---</p>
-                <img class="img-fluid d-block mx-auto" src="img/pages/{{ page.foto }}" alt="{{ page.nombre }} {{ page.apellidos }}">
-                <p>{{ page.content }}</p>
-                <ul class="list-inline">
-					<B>Demarcación:</B> {{ page.demarcacion }}<BR>
-					<B>Equipo Actual:</B> {{ page.equipo_actual }}<BR>
-					<B>Edad:</B> {{ctr}} años ({{ page.fecha_de_nacimiento }})<BR>
-                </ul>
-                <button class="btn btn-primary" data-dismiss="modal" type="button">
-                  <i class="fas fa-times"></i>
-                  Cerrar</button>
-              </div>
-            </div>
-          </div>
-        </div>
+		  {% assign titulos = page.titulos | split: "*" %}
+		  {% assign hayTitulos = titulos |size %}
+		  {% if hayTitulos > 0 %}
+	 <div class="card trayectoria">
+          <h4 class="card-header">Títulos</h4>
+		<table class="table table-striped table-dark">
+		  <tbody>
+			  {% for entrada in titulos %}
+			  <tr><td>{{ entrada }}</td></tr>
+			  {% endfor %}
+		  </tbody></table></div>
+		  {% endif %}
+
+		  {% assign logros = page.logros | split: "*" %}
+		  {% assign hayLogros = logros |size %}
+		  {% if hayLogros > 0 %}
+	 <div class="card trayectoria">
+          <h4 class="card-header">Logros</h4>
+		<table class="table table-striped table-dark">
+		  <tbody>
+			  {% for entrada in logros %}
+			  <tr><td>{{ entrada }}</td></tr>
+			  {% endfor %}
+		  </tbody>
+		</table></div>
+		  {% endif %}
+
+
+	  </div>
+	</div>
       </div>
-    </div>
+	</div>
+  </div>
   </div>
 
 	
@@ -101,7 +164,7 @@
 
 
   
-{% include pie.html %}
+{% include pie.html relativo = "../" %}
   
 
 </body>

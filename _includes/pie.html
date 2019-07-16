@@ -17,13 +17,13 @@
         <div class="col-md-4">
           <ul class="list-inline quicklinks">
             <li class="list-inline-item">
-			  <a data-toggle="modal" href="#avisoModal" onclick="$('#avisoCuerpo').load('aviso.html');">Aviso Legal </a>
+			  <a data-toggle="modal" href="#avisoModal" onclick="$('#avisoCuerpo').load('{{ include.relativo }}aviso.html');">Aviso Legal </a>
             </li>
             <li class="list-inline-item">
-              <a data-toggle="modal" href="#proteccionModal" onclick="$('#proteccionCuerpo').load('proteccion.html');"> Protección de datos </a>
+              <a data-toggle="modal" href="#proteccionModal" onclick="$('#proteccionCuerpo').load('{{ include.relativo }}proteccion.html');"> Protección de datos </a>
             </li>
             <li class="list-inline-item">
-              <a data-toggle="modal" href="#cookiesModal" onclick="$('#cookiesCuerpo').load('cookies.html');"> Cookies </a>
+              <a data-toggle="modal" href="#cookiesModal" onclick="$('#cookiesCuerpo').load('{{ include.relativo }}cookies.html');"> Cookies </a>
             </li>
           </ul>
         </div>
@@ -102,18 +102,18 @@
 </div>
 
   <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="{{ include.relativo }}vendor/jquery/jquery.min.js"></script>
+  <script src="{{ include.relativo }}vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
   <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  <script src="{{ include.relativo }}vendor/jquery-easing/jquery.easing.min.js"></script>
 
   <!-- Contact form JavaScript -->
-  <script src="js/jqBootstrapValidation.js"></script>
-  <script src="js/contact_me.js"></script>
+  <script src="{{ include.relativo }}js/jqBootstrapValidation.js"></script>
+  <script src="{{ include.relativo }}js/contact_me.js"></script>
 
   <!-- Custom scripts for this template -->
-  <script src="js/agency.min.js"></script>
+  <script src="{{ include.relativo }}js/agency.min.js"></script>
 
 <script>
 function compruebaAceptaCookies() {
