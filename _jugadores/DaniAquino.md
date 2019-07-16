@@ -3,7 +3,7 @@ posicion: 50
 nombre: Daniel
 apellidos: Aquino Pintos
 nacionalidad: Español/Argentino
-demarcacion: Medio Centro
+demarcacion: Delantero
 estatura: 178 cm
 equipo_actual: Piast Gliwice
 fecha_de_nacimiento: 1990/07/27
