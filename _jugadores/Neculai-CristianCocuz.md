@@ -1,5 +1,4 @@
 ---
-layout: detalles
 posicion: 40
 nombre: Neculai-Cristian
 apellidos: Cocuz

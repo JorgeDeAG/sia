@@ -30,10 +30,10 @@ collections:
   servicios:
   jugadores:
     output: true
-    #permalink: "jugadores.html"
   jugadoras:
     output: true
-    #permalink: "jugadoras.html"
+  jugadores_base:
+    output: true
   equipo:
 
 defaults:
@@ -45,6 +45,11 @@ defaults:
   - scope:
       path: ""
       type: "jugadoras"
+    values:
+      layout: "detalles"
+  - scope:
+      path: ""
+      type: "jugadores_base"
     values:
       layout: "detalles"
 

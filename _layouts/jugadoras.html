@@ -49,66 +49,8 @@
 <body id="page-top">
 
   {% include menu.html %}
-
-  <!-- jugadoras Grid -->
-  <section class="bg-light" id="jugadoras">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase cabecera">Jugadoras</h2>
-        </div>
-      </div>
-      <div class="row">
-
-{% assign jugadores_ordenados = site.jugadoras | sort:"posicion" %}
-{% assign ctr = 0 %}
-{% for jugador in jugadores_ordenados %}
-{% assign nombre_completo = jugador.nombre | append: " " | append: jugador.apellidos %}
-{% if jugador.seccion != nil and futbol_base == false %}
-	{% assign futbol_base = true %}
-      </div>
-		  <div class="row">
-			<div class="col-lg-12 text-center">
-			  <h2 class="section-heading text-uppercase">Fútbol Base</h2>
-			</div>
-		  </div>
-      <div class="row">
-{% endif %}
-<div class="col-md col-sm jugadores-item">
-	<div class="card" onclick="window.location='{{jugador.url}}'">
-	  <a class="jugadores-link" href="{{jugador.url}}">
-		<div class="jugadores-hover">
-		  <div class="jugadores-hover-content">
-			<i class="fas fa-plus fa-3x"></i>
-		  </div>
-		</div>
-		<img class="card-img-top" src="img/jugadoras/{{ jugador.foto }}" alt="{{ nombre_completo }}">
-	  </a>
-	  <div class="card-body">
-		<h6 class="card-title">{{ nombre_completo }}</h6>
-		<p class="card-text">
-			<table class="table-sm">
-				<tr><th>Nacionalidad:</th><td>{{ jugador.nacionalidad }}</td></tr>
-				<tr><th>Demarcación:</th><td>{{ jugador.demarcacion }}</td></tr>
-				<tr><th>Equipo Actual:</th><td>{{ jugador.equipo_actual }}</td></tr>
-				{% assign fnac = jugador.fecha_de_nacimiento | date: '%s' %}
-				{% assign nowTimestamp = 'now' | date: '%s' %}
-				{% assign diffSeconds = nowTimestamp | minus: fnac %}
-				{% assign edad = diffSeconds | divided_by: 3600 | divided_by: 24 | divided_by: 365 %}
-				<tr><th>Edad:</th><td>{{ edad }} años</td></tr>
-			</table>
-		</p>
-	  </div>
-	</div>
-</div>
-{% endfor %}		
-      </div>
-    </div>
-  </section>
-  
-  
-
-{% include pie.html %}
+  {% include jugadores.html seccion="Jugadoras" subdir="jugadoras" coleccion=site.jugadoras %}
+  {% include pie.html %}
 
 
 </body>

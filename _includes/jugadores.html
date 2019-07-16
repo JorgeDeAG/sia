@@ -1,0 +1,44 @@
+  <!-- jugadores Grid -->
+  <section class="bg-light" id="jugadores">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase cabecera">{{ include.seccion }}</h2>
+        </div>
+      </div>
+      <div class="row">
+
+{% assign jugadores_ordenados = include.coleccion | sort:"posicion" %}
+{% for jugador in jugadores_ordenados %}
+{% assign nombre_completo = jugador.nombre | append: " " | append: jugador.apellidos %}
+<div class="col-md col-sm jugadores-item">
+	<div class="card" onclick="window.location='{{jugador.url}}'">
+	  <a class="jugadores-link" href="{{jugador.url}}">
+		<div class="jugadores-hover">
+		  <div class="jugadores-hover-content">
+			<i class="fas fa-plus fa-3x"></i>
+		  </div>
+		</div>
+		<img class="card-img-top" src="img/{{ include.subdir }}/{{ jugador.foto }}" alt="{{ nombre_completo }}">
+	  </a>
+	  <div class="card-body">
+		<h6 class="card-title">{{ nombre_completo }}</h6>
+		<p class="card-text">
+			<table class="table-sm">
+				<tr><th>Nacionalidad:</th><td>{{ jugador.nacionalidad }}</td></tr>
+				<tr><th>Demarcación:</th><td>{{ jugador.demarcacion }}</td></tr>
+				<tr><th>Equipo Actual:</th><td>{{ jugador.equipo_actual }}</td></tr>
+				{% assign fnac = jugador.fecha_de_nacimiento | date: '%s' %}
+				{% assign nowTimestamp = 'now' | date: '%s' %}
+				{% assign diffSeconds = nowTimestamp | minus: fnac %}
+				{% assign edad = diffSeconds | divided_by: 3600 | divided_by: 24 | divided_by: 365 %}
+				<tr><th>Edad:</th><td>{{ edad }} años</td></tr>
+			</table>
+		</p>
+	  </div>
+	</div>
+</div>
+{% endfor %}		
+      </div>
+    </div>
+  </section>

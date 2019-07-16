@@ -40,6 +40,10 @@
         }
       }
     }
+	.dropdown-menu {
+		background-color:rgba(0, 0, 0, 0);
+		margin-left: 20px;
+	}
   }
 }
 @media(min-width:992px) {
@@ -64,6 +68,9 @@
           padding: 1.1em 1em !important;
         }
       }
+	  .dropdown-menu {
+		  background-color: #000;
+	  }
     }
     &.navbar-shrink {
       padding-top: 0;

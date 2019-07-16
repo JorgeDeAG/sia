@@ -13,7 +13,6 @@ foto: matiascastillo.jpg
 estudios:
 
 trayectoria: 2018 - 2019#Racing de Santander Juvenil
-
 titulos:
 logors:
 

@@ -68,7 +68,9 @@
 				{% if page.peso.size > 1 %}
 				  <tr><th>Peso:</th><td>{{ page.peso }}</td></tr>
 				{% endif %}
+				{% if page.estatura.size > 1 %}
 				<tr><th>Estatura:</th><td>{{ page.estatura }}</td></tr>
+				{% endif %}
 				{% if page.pie.size > 2 %}
 				  <tr><th>Pie:</th><td>{{ page.pie }}</td></tr>
 				{% endif %}
@@ -107,7 +109,7 @@
 		  {% assign haytrayectoria = trayectoria |size %}
 		  {% if haytrayectoria > 0 %}
 	 <div class="card trayectoria">
-        <h4 class="card-header"><span class="fas fa-tshirt"></span>&nbsp;Trayectoria Deportiva</h4>
+        <h4 class="card-header"><span class="fas fa-tshirt"></span>&nbsp;&nbsp;Trayectoria Deportiva</h4>
 		<table class="table table-striped table-dark">
 		  <tbody>
 			  {% for entrada in trayectoria %}
@@ -139,11 +141,16 @@
 		  {% assign hayLogros = logros |size %}
 		  {% if hayLogros > 0 %}
 	 <div class="card trayectoria">
-          <h4 class="card-header">Logros</h4>
+        <h4 class="card-header"><span class="fas fa-trophy"></span>&nbsp;&nbsp;Logros</h4>
 		<table class="table table-striped table-dark">
 		  <tbody>
 			  {% for entrada in logros %}
-			  <tr><td>{{ entrada }}</td></tr>
+			<tr>
+				{% assign columnas = entrada | split: "#" %}
+			    {% for col in columnas %}
+					<td>{{ col }}</td>
+			    {% endfor %}
+			</tr>
 			  {% endfor %}
 		  </tbody>
 		</table></div>
