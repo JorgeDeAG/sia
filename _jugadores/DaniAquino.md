@@ -5,7 +5,7 @@ apellidos: Aquino Pintos
 nacionalidad: Español/Argentino
 demarcacion: Medio Centro
 estatura: 178 cm
-equipo_actual: Cádiz CF B
+equipo_actual: Piast Gliwice
 fecha_de_nacimiento: 1990/07/27
 pie: Izquierdo
 foto: DaniAquino.jpg

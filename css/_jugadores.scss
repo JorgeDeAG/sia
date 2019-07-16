@@ -92,6 +92,7 @@
 .card-header {
   color: #DDDDDD;
   background-color: $primary;
+  width: 100%;
 }
 
 .card {
@@ -120,4 +121,18 @@
 }
 .close {
 	font-size: 30pt;
+}
+
+.table, .table-sm {
+	width: 100%;
+	th {
+		width: 40%;
+		text-align: right;
+	}
+}
+
+
+.card-title {
+	text-align: center;
+	color: $primary;
 }

@@ -1,5 +1,6 @@
 ---
 posicion: 60
+seccion: Base
 nombre: Matias
 apellidos: Castillo Abascal
 nacionalidad: Español

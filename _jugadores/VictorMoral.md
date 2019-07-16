@@ -1,5 +1,6 @@
 ---
 layout: detalles
+seccion: Base
 posicion: 50
 nombre: Víctor
 apellidos: Moral Sánchez
