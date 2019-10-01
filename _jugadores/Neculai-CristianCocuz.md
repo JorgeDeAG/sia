@@ -13,7 +13,7 @@ estudios:
 
 trayectoria: 2019 - 2020#Cádiz B*2017 - 2018#Carabanchel*2017 - 2018#CP Parla*2016 - 2017#Carabanchel*2015 - 2016#Eigene U19
 titulos:
-logors:
+logros:
 
 video:
 ---
