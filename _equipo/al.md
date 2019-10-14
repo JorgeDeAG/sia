@@ -1,6 +1,6 @@
 ---
 posicion: 60
-col: col-sm-6
+col: col-sm-12
 seccion: Fútbol Femenino
 nombre: Álvaro López
 funcion: Intermediario REG. R.F.E.F. 828
