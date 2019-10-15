@@ -164,7 +164,7 @@
       </div>
 	  <BR/>
 	  <!-- Intermediarios -->
-	  {% assign equipo_ordenado = site.equipo | where: "seccion", "Intermediarios" %}
+	  {% assign equipo_ordenado = site.equipo | sort:"posicion" | where: "seccion", "Intermediarios" %}
       <div class="row componente_cabecera">
         <div class="col-lg-12 text-center">
           <h3 class="section-heading">Intermediación</h3>
@@ -178,7 +178,7 @@
       </div>
 	  <BR/>
 	  <!-- Fútbol Base -->
-	  {% assign equipo_ordenado = site.equipo | where: "seccion", "Fútbol Base" %}
+	  {% assign equipo_ordenado = site.equipo | sort:"posicion" | where: "seccion", "Fútbol Base" %}
       <div class="row componente_cabecera">
         <div class="col-lg-12 text-center">
           <h3 class="section-heading">Fútbol Base</h3>
@@ -192,7 +192,7 @@
       </div>
 	  <BR/>
 	  <!-- Departamento Jurídico -->
-	  {% assign equipo_ordenado = site.equipo | where: "seccion", "Departamento Jurídico" %}
+	  {% assign equipo_ordenado = site.equipo | sort:"posicion" | where: "seccion", "Departamento Jurídico" %}
       <div class="row componente_cabecera">
         <div class="col-lg-12 text-center">
           <h3 class="section-heading">Departamento Jurídico</h3>
