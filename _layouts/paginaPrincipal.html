@@ -191,6 +191,20 @@
 		{% endfor %}		
       </div>
 	  <BR/>
+	  <!-- Scouting -->
+	  {% assign equipo_ordenado = site.equipo | sort:"posicion" | where: "seccion", "Scouting" %}
+      <div class="row componente_cabecera">
+        <div class="col-lg-12 text-center">
+          <h3 class="section-heading">Departamento Jurídico</h3>
+        </div>
+      </div>
+      <div class="row text-center componente">
+		{% assign ctr = 0 %}
+		{% for componente in equipo_ordenado %}
+			{% include componenteEquipo.html componente=componente%}
+		{% endfor %}		
+      </div>
+	  <BR/>
 	  <!-- Departamento Jurídico -->
 	  {% assign equipo_ordenado = site.equipo | sort:"posicion" | where: "seccion", "Departamento Jurídico" %}
       <div class="row componente_cabecera">
