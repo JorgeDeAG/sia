@@ -1,6 +1,6 @@
 ---
 posicion: 70
-col: col-sm-4
+col: col-sm-3
 seccion: Intermediarios
 nombre: Joshua Zapata
 funcion: Intermediario
