@@ -8,7 +8,7 @@ peso:
 estatura: 
 equipo_actual: Valencia CF
 estudios:
-fecha_de_nacimiento: 1997/01/01
+fecha_de_nacimiento: 1997/12/10
 foto: beabeltran.png
 
 trayectoria: 2019 - 2020#Valencia CF
