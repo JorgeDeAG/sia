@@ -8,7 +8,7 @@ peso:
 estatura: 
 equipo_actual: Valencia CF
 estudios:
-fecha_de_nacimiento: 2000/01/01
+fecha_de_nacimiento: 2000/04/09
 foto: bertapujadas.png
 
 trayectoria: 2019 - 2020#Valencia CF
