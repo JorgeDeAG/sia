@@ -13,7 +13,8 @@ header.masthead {
 	margin: 0 20px;
     .intro-lead-in {
       font-size: 22px;
-      font-style: italic;
+      font-weight: 700;
+      //font-style: italic;
       line-height: 22px;
       margin-bottom: 25px;
       @include serif-font;
@@ -50,7 +51,8 @@ header.masthead {
 	margin: 0 20px;
     .intro-lead-in {
       font-size: 22px;
-      font-style: italic;
+      font-weight: 700;
+      //font-style: italic;
       line-height: 22px;
       margin-bottom: 25px;
       @include heading-font;
