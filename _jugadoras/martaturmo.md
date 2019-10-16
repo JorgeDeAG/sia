@@ -8,7 +8,7 @@ peso:
 estatura: 
 equipo_actual: Madrid CFF
 estudios:
-fecha_de_nacimiento: 1996/01/01
+fecha_de_nacimiento: 1996/06/27
 foto: martaturmo.png
 
 trayectoria: 2019 - 2020#Madrid CFF
