@@ -6,7 +6,7 @@ nacionalidad: Portugués
 demarcacion: 
 estatura: 
 equipo_actual: Doxa FC
-fecha_de_nacimiento: 1993/01/01
+fecha_de_nacimiento: 1993/03/09
 pie: 
 foto: carlitosCalo.jpg
 estudios:
