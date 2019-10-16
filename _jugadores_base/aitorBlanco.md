@@ -6,7 +6,7 @@ nacionalidad: Español
 demarcacion:
 estatura:
 equipo_actual: AD Alcorcón
-fecha_de_nacimiento: 2002/01/01
+fecha_de_nacimiento: 2002/01/24
 pie:
 foto: aitorBlanco.jpg
 estudios:
