@@ -6,7 +6,7 @@ nacionalidad: Español
 demarcacion: 
 estatura: 
 equipo_actual: UD Logroñés
-fecha_de_nacimiento: 1998/01/01
+fecha_de_nacimiento: 1998/03/98
 pie: 
 foto: jaimeSierra.jpg
 estudios:
