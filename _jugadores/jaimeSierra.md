@@ -2,7 +2,7 @@
 posicion: 70
 nombre: Jaime
 apellidos: Sierra
-nacionalidad: Española
+nacionalidad: Español
 demarcacion: 
 estatura: 
 equipo_actual: UD Logroñés
