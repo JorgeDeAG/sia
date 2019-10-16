@@ -5,7 +5,7 @@ apellidos: Kandoussi
 nacionalidad: Marruecos
 estatura: 
 equipo_actual: CD Castellón
-fecha_de_nacimiento: 2000/01/01
+fecha_de_nacimiento: 2000/02/17
 pie: 
 foto: bilalKandoussi.jpg
 estudios:
