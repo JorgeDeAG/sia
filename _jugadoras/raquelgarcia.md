@@ -9,7 +9,7 @@ estatura:
 equipo_actual: EDF Logroño
 estudios:
 fecha_de_nacimiento: 1997/01/01
-foto: martaturmo.png
+foto: raquelgarcia.png
 
 trayectoria: 2019 - 2020#EDF Logroño
 titulos:
