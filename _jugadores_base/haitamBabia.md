@@ -3,7 +3,7 @@ posicion: 70
 nombre: Haitam
 apellidos: Babia
 nacionalidad: Marruecos
-demarcacion:
+demarcacion: Delantero
 estatura:
 equipo_actual: Badalona
 fecha_de_nacimiento: 2001/01/01
