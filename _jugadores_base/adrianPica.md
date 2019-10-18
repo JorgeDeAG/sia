@@ -3,7 +3,7 @@ posicion: 90
 nombre: Adrian
 apellidos: Pica
 nacionalidad: Español
-demarcacion:
+demarcacion: Defensa central
 estatura:
 equipo_actual: AD Alcorcón
 fecha_de_nacimiento: 2002/01/09
