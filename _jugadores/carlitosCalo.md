@@ -3,7 +3,7 @@ posicion: 90
 nombre: Carlitos
 apellidos: Caló
 nacionalidad: Portugués
-demarcacion: 
+demarcacion: Extremo izquierdo
 estatura: 
 equipo_actual: Doxa FC
 fecha_de_nacimiento: 1993/03/09
