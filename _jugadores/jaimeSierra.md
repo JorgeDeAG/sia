@@ -3,7 +3,7 @@ posicion: 70
 nombre: Jaime
 apellidos: Sierra
 nacionalidad: Español
-demarcacion: 
+demarcacion: Medio centro
 estatura: 
 equipo_actual: UD Logroñés
 fecha_de_nacimiento: 1998/03/18
