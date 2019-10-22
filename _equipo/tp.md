@@ -1,5 +1,5 @@
 ---
-posicion: 10
+posicion: 20
 col: col-sm-6
 seccion: Scouting
 nombre: Tony Petrov
