@@ -1,6 +1,6 @@
 ---
 posicion: 10
-col: col-sm-12
+col: col-sm-6
 seccion: Scouting
 nombre: Jorge Rodríguez
 funcion: Canarias
