@@ -1,6 +1,6 @@
 ---
 posicion: 100
-col: col-sm-12
+col: col-sm-6
 seccion: Intermediarios
 nombre: Kaan Karadayi
 funcion: Intermediario Alemania y Turquía
