@@ -3,7 +3,7 @@ posicion: 80
 nombre: Bilal
 apellidos: Kandoussi
 nacionalidad: Marruecos
-estatura: Mediapunta
+estatura: Extremo
 equipo_actual: CD Castellón
 fecha_de_nacimiento: 2000/02/17
 pie: 
