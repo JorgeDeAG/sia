@@ -34,6 +34,8 @@ collections:
     output: true
   jugadores_base:
     output: true
+  entrenadores:
+    output: true
   equipo:
 
 defaults:
@@ -50,6 +52,11 @@ defaults:
   - scope:
       path: ""
       type: "jugadores_base"
+    values:
+      layout: "detalles"
+  - scope:
+      path: ""
+      type: "entrenadores"
     values:
       layout: "detalles"
 
