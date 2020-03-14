@@ -8,7 +8,7 @@ estatura:
 equipo_actual: Rayo Vallecano
 fecha_de_nacimiento: 2002/12/23
 pie:
-foto: marcosLlanos.jpg
+foto: ikerLiaño.jpg
 estudios:
 
 trayectoria: 2019 - 2020#Rayo Vallecano
