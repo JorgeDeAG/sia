@@ -8,7 +8,7 @@ estatura: 181 cm
 equipo_actual: Ararat Yerevan
 fecha_de_nacimiento: 2000/01/20
 pie: 
-foto: georgichelidze.png
+foto: georgichelidze.jpg
 estudios:
 
 trayectoria: 2019 - 2020#Ararat Yerevan

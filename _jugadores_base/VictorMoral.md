@@ -12,7 +12,7 @@ pie:
 foto: VictorMoral.jpg
 estudios:
 
-trayectoria:
+trayectoria: 2019 - 2020#Getafe F.C.
 titulos:
 logors:
 

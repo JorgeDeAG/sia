@@ -8,7 +8,7 @@ estatura:
 equipo_actual: Las Rozas Club de Fútbol
 fecha_de_nacimiento: 1990/01/23
 pie: 
-foto: yelcoRamos.png
+foto: yelcoRamos.jpg
 estudios: 
 
 trayectoria: 2019 - 2020#Las Rozas Club de Fútbol

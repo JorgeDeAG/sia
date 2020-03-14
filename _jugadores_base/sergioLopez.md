@@ -1,0 +1,19 @@
+---
+posicion: 130
+nombre: Sergio
+apellidos: López Nuñez
+nacionalidad: Español
+demarcacion: Portero
+estatura:
+equipo_actual: UCAM Murcia
+fecha_de_nacimiento: 2006/09/20
+pie:
+foto: sergioLopez.jpg
+estudios:
+
+trayectoria: 2019 - 2020#UCAM Murcia
+titulos:
+logros:
+
+video:
+---
