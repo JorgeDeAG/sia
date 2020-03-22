@@ -3,7 +3,7 @@ posicion: 80
 nombre: Adrian
 apellidos: Martinez
 nacionalidad: Español
-demarcacion: Medio centro
+demarcacion: Mediocentro
 estatura:
 equipo_actual: Getafe
 fecha_de_nacimiento: 2002/01/01
