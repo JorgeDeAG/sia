@@ -1,6 +1,6 @@
 ---
 posicion: 20
-col: col-sm-3
+col: col-sm-4
 nombre: Sergio Soriano
 funcion: Secretaría Técnica
 e-mail: s.soriano@soccerintagents.com

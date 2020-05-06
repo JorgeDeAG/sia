@@ -1,6 +1,6 @@
 ---
 posicion: 90
-col: col-sm-3
+col: col-sm-4
 seccion: Intermediarios
 nombre: Darío Galbarini
 funcion: Intermediario Suiza

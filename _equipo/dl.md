@@ -1,6 +1,6 @@
 ---
 posicion: 30
-col: col-sm-3
+col: col-sm-4
 nombre: Diego Leon
 funcion: Director Fútbol Internacional 
 e-mail: d.leon@soccerintagents.com

@@ -1,6 +1,6 @@
 ---
 posicion: 75
-col: col-sm-3
+col: col-sm-4
 seccion: Intermediarios
 nombre: José Luis Merino
 funcion: Intermediario

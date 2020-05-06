@@ -1,6 +1,6 @@
 ---
 posicion: 30
-col: col-sm-6
+col: col-sm-12
 seccion: Scouting
 nombre: Dani Gracia
 funcion: España
