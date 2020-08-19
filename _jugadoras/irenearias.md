@@ -6,7 +6,7 @@ nacionalidad: Española
 demarcacion: Medio Centro
 estatura: 160 cm
 equipo_actual: Racing Fem B
-fecha_de_nacimiento: 
+fecha_de_nacimiento: 14/5/1990
 pie: Derecho
 foto: irenearias.jpg
 estudios:
