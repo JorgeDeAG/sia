@@ -3,7 +3,7 @@ posicion: 160
 nombre: Mikel
 apellidos: Escobar
 nacionalidad: Español
-demarcacion: Centro del campo
+demarcacion: Centrocampista
 estatura:
 equipo_actual: Arenas Club de Getxo
 fecha_de_nacimiento: 2002/01/07
