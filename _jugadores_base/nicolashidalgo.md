@@ -8,7 +8,7 @@ demarcacion: Extremo Izquierdo
 estatura: 
 equipo_actual: Atlético de Madrid
 fecha_de_nacimiento: 2004/12/22
-pie: 
+pie: izquierdo
 foto: NicolasHidalgo.jpg
 estudios:
 
