@@ -5,7 +5,7 @@ apellidos: López Nuñez
 nacionalidad: Español
 demarcacion: Portero
 estatura:
-equipo_actual: UCAM Murcia
+equipo_actual: Granada CF
 fecha_de_nacimiento: 2006/09/20
 pie:
 foto: sergioLopez.jpg
