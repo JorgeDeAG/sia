@@ -6,7 +6,7 @@ nacionalidad: Española
 demarcacion: 
 peso: 
 estatura: 
-equipo_actual: EDF Logroño
+equipo_actual: Granada CF
 estudios:
 fecha_de_nacimiento: 1997/01/01
 foto: raquelgarcia.png
