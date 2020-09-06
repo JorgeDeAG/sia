@@ -7,7 +7,7 @@ demarcacion: Delantero
 estatura: 
 equipo_actual: Österseunds FK
 fecha_de_nacimiento: 1996/04/09
-pie: 
+pie: izquierdo
 foto: brianMartin.jpg
 estudios: 
 
