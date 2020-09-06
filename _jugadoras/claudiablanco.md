@@ -6,7 +6,7 @@ nacionalidad: Española
 demarcacion: 
 peso: 
 estatura: 
-equipo_actual: Real Sociedad
+equipo_actual: Fundación Albacete Balompié
 estudios:
 fecha_de_nacimiento: 1997/03/11
 foto: claudiablanco.png
