@@ -3,7 +3,7 @@ posicion: 160
 nombre: Raquel
 apellidos: García
 nacionalidad: Española
-demarcacion: 
+demarcacion: centrocampista
 peso: 
 estatura: 
 equipo_actual: Granada CF
