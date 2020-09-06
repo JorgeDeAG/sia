@@ -14,7 +14,7 @@ estudios:
 
 trayectoria: 2019 - 2020#Real Racing Club
 titulos:
-logors:
+logros:
 
 video:
 ---
