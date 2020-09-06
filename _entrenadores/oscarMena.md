@@ -2,7 +2,7 @@
 posicion: 180
 nombre: Oscar
 apellidos: Mena
-nacionalidad: Español
+nacionalidad: Español/Argentina
 demarcacion: Entrenador
 estatura: 
 equipo_actual: Guangzhou Evergrande
