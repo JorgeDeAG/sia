@@ -6,7 +6,7 @@ nacionalidad: Española
 demarcacion: Defensa
 peso: 
 estatura: 
-equipo_actual: Espanyol
+equipo_actual: EDF Logroño
 estudios:
 fecha_de_nacimiento: 1994/04/30
 foto: inesaltamira.png
