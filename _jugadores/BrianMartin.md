@@ -2,7 +2,7 @@
 posicion: 190
 nombre: Brian
 apellidos: Martin
-nacionalidad: Español
+nacionalidad: Española
 demarcacion: Delantero
 estatura: 
 equipo_actual: Österseunds FK
