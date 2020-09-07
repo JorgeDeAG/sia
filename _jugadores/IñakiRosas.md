@@ -8,7 +8,7 @@ estatura:
 equipo_actual: Vitoria 1945
 fecha_de_nacimiento: 2001/03/30
 pie: derecho
-foto: iñakirosas.jpg
+foto: brian.jpg
 estudios:
 
 trayectoria: 2019 - 2020#Eibar Juvenil
