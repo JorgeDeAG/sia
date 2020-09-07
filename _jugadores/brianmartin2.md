@@ -1,5 +1,5 @@
 ---
-posicion: 190
+posicion: 200
 nombre: Brian
 apellidos: Martin
 nacionalidad: Español
@@ -8,7 +8,7 @@ estatura:
 equipo_actual: Österseunds FK
 fecha_de_nacimiento: 1996/04/09
 pie: izquierdo
-foto:
+foto:brianMartin.jpg
 estudios: 
 
 trayectoria:
