@@ -6,7 +6,7 @@ nacionalidad: Español
 demarcacion: Mediocentro
 estatura: 
 equipo_actual: Zamora CF
-fecha_de_nacimiento: 21/03/1998
+fecha_de_nacimiento: 1998/03/21
 pie: derecho
 foto: abelconejo.jpg
 estudios: 
