@@ -9,7 +9,7 @@ estatura:
 equipo_actual: Atlético de Madrid
 fecha_de_nacimiento: 2004/12/22
 pie: izquierdo
-foto: NicolasHidalgo.jpg
+foto: nicolashidalgo.jpg
 estudios:
 
 trayectoria: 2019 - 2020#Cultural Leonesa
