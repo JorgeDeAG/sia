@@ -5,7 +5,7 @@ apellidos: Cocuz
 nacionalidad: Rumano
 demarcacion: Medio Centro
 estatura: 181 cm
-equipo_actual: Rayo Cantabria
+equipo_actual: Libre
 fecha_de_nacimiento: 1997/02/18
 pie: Derecho
 foto: Neculai-CristianCocuz.jpg
