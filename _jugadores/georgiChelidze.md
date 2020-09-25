@@ -5,7 +5,7 @@ apellidos: Chelidze
 nacionalidad: Rusia
 demarcacion: Interior izquierdo
 estatura: 181 cm
-equipo_actual: Ararat Yerevan
+equipo_actual: Zenit 2
 fecha_de_nacimiento: 2000/01/20
 pie: 
 foto: georgichelidze.jpg
