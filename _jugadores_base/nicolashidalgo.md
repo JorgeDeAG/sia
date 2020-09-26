@@ -1,6 +1,6 @@
 ---
 seccion: Base
-posicion: 62
+posicion: 49
 nombre: Nicolás 
 apellidos: Hidalgo
 nacionalidad: Español
