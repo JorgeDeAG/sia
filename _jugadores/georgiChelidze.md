@@ -1,5 +1,5 @@
 ---
-posicion: 110
+posicion: 24
 nombre: Georgi
 apellidos: Chelidze
 nacionalidad: Rusia
