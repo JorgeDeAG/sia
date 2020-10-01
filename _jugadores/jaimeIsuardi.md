@@ -5,7 +5,7 @@ apellidos: Isuardi
 nacionalidad: Español
 demarcacion: Delantero
 estatura: 1,71 m
-equipo_actual: Club Portugalete
+equipo_actual: Lorca FC
 fecha_de_nacimiento: 1992/02/02
 pie: 
 foto: jaimeIsuardi.jpg
