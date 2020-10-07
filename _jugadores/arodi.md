@@ -8,7 +8,7 @@ estatura: 175 cm
 equipo_actual: U.D. Ibarra
 fecha_de_nacimiento: 2000/07/01
 pie: Diestro
-foto: arodi.jpg
+foto:arodi.jpg
 estudios:
 
 trayectoria: 
