@@ -2,7 +2,7 @@
 posicion: 40
 nombre: Neculai-Cristian
 apellidos: Cocuz
-nacionalidad: Rumano
+nacionalidad: Rumano 
 demarcacion: Medio Centro
 estatura: 181 cm
 equipo_actual: Vilamarxant CF
