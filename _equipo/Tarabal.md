@@ -1,5 +1,5 @@
 ---
-posicion: 25
+posicion: 40
 col: col-sm-12
 seccion: Scouting
 nombre: Roberto Tarabal
