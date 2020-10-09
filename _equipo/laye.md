@@ -1,6 +1,6 @@
 ---
 posicion: 105
-col: col-sm-6
+col: col-sm-4
 seccion: Intermediarios
 nombre: Laye Mbengue
 funcion: Intermediario Fútbol Africano/Francia
