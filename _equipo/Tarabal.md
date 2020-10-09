@@ -1,6 +1,6 @@
 ---
-posicion: 31
-col: col-sm-6
+posicion: 25
+col: col-sm-12
 seccion: Scouting
 nombre: Roberto Tarabal
 funcion: Argentina/Uruguay
