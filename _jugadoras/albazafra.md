@@ -9,7 +9,7 @@ estatura:
 equipo_actual: Santa Teresa C.D.
 estudios: 
 fecha_de_nacimiento: 2003/12/20
-foto: zafra.jpg
+foto: zafra.jpeg
 
 trayectoria: 2019 - 2020#Santa Teresa CD
 
