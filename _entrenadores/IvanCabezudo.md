@@ -5,7 +5,7 @@ apellidos: Cabezudo
 nacionalidad: Español
 demarcacion: Entrenador
 estatura: 
-equipo_actual:  AFC Hermannstadt
+equipo_actual:  Sin Equipo
 fecha_de_nacimiento: 1988/01/09
 pie: 
 foto: IvanCabezudo.jpg
