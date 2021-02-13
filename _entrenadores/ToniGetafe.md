@@ -5,7 +5,7 @@ apellidos: García Ríos
 nacionalidad: Español
 demarcacion: Entrenador
 estatura: 
-equipo_actual: Getafe CF DH
+equipo_actual: Sin Equipo
 fecha_de_nacimiento: 1988/07/20
 pie: 
 foto: ToniGetafe.jpg
