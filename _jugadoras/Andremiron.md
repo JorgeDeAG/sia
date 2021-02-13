@@ -3,7 +3,7 @@ posicion: 162
 nombre: Andrea 
 apellidos: Mirón
 nacionalidad: Española
-demarcacion: Delantera
+demarcacion: Defensa
 peso: 
 estatura: 
 equipo_actual: FC Famalicao
