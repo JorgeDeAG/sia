@@ -3,7 +3,7 @@ posicion: 44
 nombre: Ibrahima
 apellidos: Berete
 nacionalidad: Guinea/Países Bajos
-demarcacion: Delantero/Exremo
+demarcacion: Delantero/Extremo
 estatura: 1,75m
 equipo_actual: Psv U19
 fecha_de_nacimiento: 2003/01/06
