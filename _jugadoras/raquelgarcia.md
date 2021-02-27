@@ -9,7 +9,7 @@ estatura:
 equipo_actual: Granada CF
 estudios:
 fecha_de_nacimiento: 1997/01/01
-foto: raquelgarcia.png
+foto: raquelgarcia.jpg
 
 trayectoria: 2019 - 2020#EDF Logroño
 titulos:
