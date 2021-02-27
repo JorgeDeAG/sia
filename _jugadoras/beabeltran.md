@@ -3,7 +3,7 @@ posicion: 130
 nombre: Bea
 apellidos: Beltrán
 nacionalidad: Española
-demarcacion: 
+demarcacion: lateral izquierdo
 peso: 
 estatura: 
 equipo_actual: Valencia CF
