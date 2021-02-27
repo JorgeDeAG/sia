@@ -8,7 +8,7 @@ peso:
 estatura: 
 equipo_actual: CD Badajoz
 estudios:
-fecha_de_nacimiento: 
+fecha_de_nacimiento: 2001/07/19
 foto: adela.png
 
 trayectoria: 2019 - 2020#CD Badajoz
