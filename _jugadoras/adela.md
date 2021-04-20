@@ -5,7 +5,7 @@ apellidos: Rico
 nacionalidad: Española
 demarcacion: Mediocentro
 peso: 
-estatura: 
+estatura: 1,70m
 equipo_actual: CD Badajoz
 estudios:
 fecha_de_nacimiento: 2001/07/19
