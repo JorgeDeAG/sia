@@ -5,7 +5,7 @@ apellidos: Martin
 nacionalidad: Español
 demarcacion: Delantero
 estatura: 
-equipo_actual: Apollon Larissa F.C.
+equipo_actual: Ejea
 fecha_de_nacimiento: 1996/04/09
 pie: Izquierdo
 foto: brian.jpg
