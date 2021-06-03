@@ -1,10 +1,10 @@
 ---
-posicion: 45
+posicion: 21
 nombre: Mamor
 apellidos: Niang
 nacionalidad: Senegal
 demarcacion: Delantero
-estatura:
+estatura: 1,90m
 equipo_actual: Getafe CF 
 fecha_de_nacimiento: 2002/02/04
 pie: izquierdo
