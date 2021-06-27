@@ -5,6 +5,6 @@ seccion: Fútbol Femenino
 nombre: Alba Merino
 funcion: Asesora Fútbol Femenino
 e-mail: a.merino@soccerintagents.com
-foto: albam.jpg
+foto: albam.jpeg
 ---
 Currículum...
