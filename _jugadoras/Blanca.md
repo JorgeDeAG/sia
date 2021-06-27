@@ -9,7 +9,7 @@ estatura:1,71cm
 equipo_actual: C.D. Santa Teresa
 estudios:
 fecha_de_nacimiento: 1997/05/15
-foto: Blanca.jpg
+foto: Blanca.jpeg
 
 trayectoria: 
 titulos:
