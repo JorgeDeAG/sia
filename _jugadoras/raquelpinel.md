@@ -6,7 +6,7 @@ nacionalidad: Española
 demarcacion: Delantera
 peso: 
 estatura: 
-equipo_actual: Sevilla FC
+equipo_actual: Villareal CF
 estudios:
 fecha_de_nacimiento: 1994/08/30
 foto: raquel.jpeg
