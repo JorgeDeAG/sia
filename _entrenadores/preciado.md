@@ -5,7 +5,7 @@ apellidos: Preciado
 nacionalidad: Español
 demarcacion: Entrenador
 estatura: 
-equipo_actual: SD Noja
+equipo_actual: Libre
 fecha_de_nacimiento: 1985/04/09
 pie: 
 foto: preciado.jpg
