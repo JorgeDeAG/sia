@@ -5,7 +5,7 @@ apellidos: Santos Vergara
 nacionalidad: Español
 demarcacion: Media Punta
 estatura: 175 cm
-equipo_actual: U.D. Ibarra
+equipo_actual: U.D. Las Palmas
 fecha_de_nacimiento: 2000/01/01
 pie: izquierdo
 foto: abian.jpg
