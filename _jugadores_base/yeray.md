@@ -14,6 +14,6 @@ estudios:
 trayectoria: 2019 - 2020#Racing Santander LN
 titulos:
 logros: 
+video:https://www.youtube.com/watch?v=9WOUX7nqrE8
 
-video: https://www.youtube.com/watch?v=9WOUX7nqrE8
 ---
