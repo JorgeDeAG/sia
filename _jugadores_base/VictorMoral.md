@@ -6,7 +6,7 @@ apellidos: Moral Sánchez
 nacionalidad: Español
 demarcacion: Defensa
 estatura: 178 cm
-equipo_actual: Getafe F.C.
+equipo_actual: Ciudad de Getafe
 fecha_de_nacimiento: 2002/01/01
 pie: 
 foto: VictorMoral.jpg
