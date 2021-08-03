@@ -6,7 +6,7 @@ nacionalidad: Española
 demarcacion: Defensa
 peso: 
 estatura: 
-equipo_actual: FC Famalicao
+equipo_actual: SCU Torrense
 estudios:
 fecha_de_nacimiento: 1991/11/10
 foto: andrea.jpg.jpeg
