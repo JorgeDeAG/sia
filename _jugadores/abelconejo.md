@@ -5,7 +5,7 @@ apellidos: Conejo
 nacionalidad: Español
 demarcacion: Mediocentro
 estatura: 
-equipo_actual: Zamora CF
+equipo_actual: Burgos Promesas
 fecha_de_nacimiento: 1998/03/21
 pie: derecho
 foto: abelconejo.jpg
