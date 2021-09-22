@@ -1,17 +1,17 @@
 ---
 posicion: 48
-nombre: Aliou
-apellidos: Thiam
-nacionalidad: Senegal
-demarcacion: Extremo izquierdo
+nombre: Sebas
+apellidos: Sepúlveda
+nacionalidad: chile
+demarcacion: Mediocentro
 estatura: 1,82 m
-equipo_actual: PESCARA U19
-fecha_de_nacimiento: 2003/05/15
-pie:
-foto: aliou.jpeg
+equipo_actual: Burgos CF
+fecha_de_nacimiento: 2003/01/01
+pie: derecho
+foto: 
 estudios:
 
-trayectoria: 2019 - 2020#Pescara 
+trayectoria: 2020 - 2021#Marina Sport DH
 titulos:
 logros: 
 
