@@ -4,7 +4,7 @@ nombre: Yeray
 apellidos: Cabanzon
 nacionalidad: España
 demarcacion: Media punta
-estatura:1,70m
+estatura: 1,70m
 equipo_actual: Rayo Cantabria
 fecha_de_nacimiento: 2003/05/14
 pie: izquierdo
