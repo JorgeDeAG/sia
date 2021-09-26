@@ -8,7 +8,7 @@ estatura: 1,82 m
 equipo_actual: Burgos CF
 fecha_de_nacimiento: 2003/01/01
 pie: derecho
-foto: 
+foto: sebas.jpeg
 estudios:
 
 trayectoria: 2020 - 2021#Marina Sport DH
