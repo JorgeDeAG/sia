@@ -5,13 +5,13 @@ apellidos: Caló
 nacionalidad: Portugués
 demarcacion: Extremo izquierdo
 estatura: 
-equipo_actual: Doxa FC
+equipo_actual: FC Pyunik
 fecha_de_nacimiento: 1993/03/09
 pie: 
-foto: carlitosCalo.jpg
+foto: Carlitoscalo.jpeg
 estudios:
 
-trayectoria: 2019 - 2020#Doxa FC
+trayectoria: 2019 - 2021#Doxa FC
 titulos:
 logros:
 
