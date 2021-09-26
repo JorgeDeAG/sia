@@ -8,7 +8,7 @@ estatura: 185cm
 equipo_actual: Racing Rioja
 fecha_de_nacimiento: 1987/07/20
 pie: izquierdo
-foto: mikel.jpeg 
+foto: mikel.jpg 
 estudios:
 
 trayectoria: 2020 - 2021#Calahorra
