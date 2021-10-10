@@ -9,7 +9,7 @@ estatura: 188 cm
 equipo_actual: SD Compostela
 fecha_de_nacimiento: 2003/01/01
 pie: derecho
-foto: Pablofernandez.jpeg
+foto: PabloFernandez.jpeg
 estudios:
 
 trayectoria: 2019 - 2021#Racing de Ferrol DH
