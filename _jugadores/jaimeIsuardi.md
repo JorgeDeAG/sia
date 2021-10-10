@@ -8,7 +8,7 @@ estatura: 1,71 m
 equipo_actual: Marbella
 fecha_de_nacimiento: 1992/02/02
 pie: derecho
-foto: jaimeIsuardi.jpg
+foto: jaimeIsuardi.jpeg
 estudios: 
 
 trayectoria: 2019 - 2020#Club Portugalete
