@@ -8,7 +8,7 @@ estatura:
 equipo_actual: Burgos Promesas
 fecha_de_nacimiento: 1998/03/21
 pie: derecho
-foto: abelconejo.jpg
+foto: abelconejo.jpeg
 estudios:
 
 trayectoria: 2019 - 2020#CD Numancia
