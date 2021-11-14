@@ -1,9 +1,9 @@
 ---
-posicion: 60
-col: col-sm-4
-seccion: Intermediarios
+posicion: 30
+col: col-sm-12
+seccion: Scouting
 nombre: David Córcoles
-funcion: Intermediario
+funcion: Scout
 e-mail: d.corcoles@soccerintagents.com
 foto: dc.jpg
 ---
