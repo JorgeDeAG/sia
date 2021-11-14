@@ -8,7 +8,7 @@ estatura:
 equipo_actual: Atlético Paso
 fecha_de_nacimiento: 1996/04/09
 pie: Izquierdo
-foto: brian.jpg
+foto: Brian.jpeg
 estudios:
 
 trayectoria: 2020 - 2021#Österseunds FK*2019 - 2020#C.D. Tenerife
