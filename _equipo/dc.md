@@ -1,6 +1,6 @@
 ---
 posicion: 30
-col: col-sm-12
+col: col-sm-4
 seccion: Scouting
 nombre: David Córcoles
 funcion: España
