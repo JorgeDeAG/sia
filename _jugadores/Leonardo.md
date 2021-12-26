@@ -5,10 +5,10 @@ apellidos: Leonardo
 nacionalidad: Español
 demarcacion: Mediapunta
 estatura: 175 cm
-equipo_actual: Racing de Ferrol
+equipo_actual: CSD Arzua
 fecha_de_nacimiento: 2001/08/16
 pie: Diestro
-foto: Leonardo.jpg
+foto: Leonardo.jpeg
 estudios:
 
 trayectoria: 
