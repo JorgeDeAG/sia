@@ -1,17 +1,17 @@
 ---
 posicion: 166
-nombre: Raquel
-apellidos: Pinel
+nombre: Ángela
+apellidos: Fernández Fraile
 nacionalidad: Española
-demarcacion: Delantera
+demarcacion: Centrocampista
 peso: 
 estatura: 
-equipo_actual: Villareal CF
+equipo_actual: CDE Racing Féminas
 estudios:
-fecha_de_nacimiento: 1994/08/30
-foto: raquel.jpg
+fecha_de_nacimiento:
+foto: 
 
-trayectoria: 2019 - 2020#Sevilla FC
-titulos: Campeona de europa U17 (2010-2011)
+trayectoria: 2019 - 2020#Monte
+titulos: 
 logros: 
 ---
