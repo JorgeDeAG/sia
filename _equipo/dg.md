@@ -2,9 +2,9 @@
 posicion: 90
 col: col-sm-4
 seccion: Intermediarios
-nombre: Darío Galbarini
-funcion: Intermediario Suiza
-e-mail: d.galbarini@soccerintagents.com
-foto: dg.jpg
+nombre: Pedro M. Costa DE Sousa
+funcion: Intermediario Portugal/Cánada
+e-mail: p.sousa@soccerintagents.com
+foto: ps.jpg
 ---
 Currículum...
