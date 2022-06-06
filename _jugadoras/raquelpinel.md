@@ -9,9 +9,9 @@ estatura:
 equipo_actual: CDE Racing Féminas
 estudios:
 fecha_de_nacimiento:
-foto: 
+foto: rubia.jpeg
 
-trayectoria: 2019 - 2020#Monte
+trayectoria: 2020 - 2021#Racing
 titulos: 
 logros: 
 ---
