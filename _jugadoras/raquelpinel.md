@@ -8,7 +8,7 @@ peso:
 estatura: 
 equipo_actual: CDE Racing Féminas
 estudios:
-fecha_de_nacimiento:
+fecha_de_nacimiento: 2006/10/20
 foto: rubia.jpeg
 
 trayectoria: 2020 - 2021#Racing
