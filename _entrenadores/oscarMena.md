@@ -1,17 +1,17 @@
 ---
 posicion: 180
-nombre: Oscar
-apellidos: Mena
-nacionalidad: Español/Argentina
+nombre: Sergio
+apellidos: Fernández
+nacionalidad: Español
 demarcacion: Entrenador
 estatura: 
-equipo_actual: Libre
-fecha_de_nacimiento: 1970/11/30
+equipo_actual: RS Gimnástica de Torrelavega
+fecha_de_nacimiento: 1983/11/25
 pie: 
-foto: oscarMena.jpg
+foto: Sesi.jpg
 estudios: 
 
-trayectoria: 2019 - 2020#Ferrocarril Midland
+trayectoria: 2021 - 2022#RS Gimnástica de Torrelavega
 titulos:
 logros:
 
