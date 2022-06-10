@@ -5,7 +5,7 @@ apellidos: Campos
 nacionalidad: Español
 demarcacion: Extremo derecho
 estatura: 180 cm
-equipo_actual: UM Escobedo
+equipo_actual: SD Solares
 fecha_de_nacimiento: 2000/01/18
 pie: Diestro
 foto: Juancar.png
