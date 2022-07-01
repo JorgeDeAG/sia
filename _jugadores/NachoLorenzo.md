@@ -5,7 +5,7 @@ apellidos: Lorenzo
 nacionalidad: España
 demarcacion: Lateral Izquierdo
 estatura: 178 cm
-equipo_actual: Atlético Astorga
+equipo_actual: CD Tropezón
 fecha_de_nacimiento: 1998/03/16
 pie: izquierdo
 foto: NachoLorenzo.jpg
