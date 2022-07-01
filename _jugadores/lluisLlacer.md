@@ -5,7 +5,7 @@ apellidos: Llacer Llopis
 nacionalidad: Español
 demarcacion: Lateral izquierdo
 estatura: 
-equipo_actual: SD Logroñes
+equipo_actual: A.D. Mérida
 fecha_de_nacimiento: 1999/01/01
 pie: 
 foto: Lluisllacer.jpg
