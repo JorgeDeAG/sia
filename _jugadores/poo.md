@@ -6,7 +6,7 @@ apellidos: Poo Mingo
 nacionalidad: Español
 demarcacion: Lateral Izquierdo
 estatura: 176 cm
-equipo_actual: UM Escobedo
+equipo_actual: Rayo Cantabria
 fecha_de_nacimiento: 2003/09/11
 pie: izquierdo
 foto: AntonioPoo.jpg
