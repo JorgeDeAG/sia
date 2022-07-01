@@ -5,7 +5,7 @@ apellidos: Abenezer Fernández
 nacionalidad: Español
 demarcacion: Delantero
 estatura: 1,84 m
-equipo_actual: Levante U.D.
+equipo_actual: Atlético Perines DH
 fecha_de_nacimiento: 2004/05/20
 pie:
 foto: bruno.jpg
