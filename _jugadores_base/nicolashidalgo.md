@@ -6,7 +6,7 @@ apellidos: Hidalgo
 nacionalidad: Español
 demarcacion: Extremo Izquierdo
 estatura: 
-equipo_actual: Atlético de Madrid
+equipo_actual: Real Valladolid
 fecha_de_nacimiento: 2004/12/22
 pie: izquierdo
 foto: nicolashidalgo.jpg
