@@ -5,7 +5,7 @@ apellidos: Sepúlveda
 nacionalidad: chile
 demarcacion: Mediocentro
 estatura: 1,82 m
-equipo_actual: Burgos CF
+equipo_actual: CD Naval Reinosa
 fecha_de_nacimiento: 2003/01/01
 pie: derecho
 foto: sebas.jpeg
