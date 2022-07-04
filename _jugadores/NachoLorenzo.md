@@ -8,7 +8,7 @@ estatura: 178 cm
 equipo_actual: CD Tropezón
 fecha_de_nacimiento: 1998/03/16
 pie: izquierdo
-foto: NachoLorenzo.jpg
+foto: NachoLorenzo.jpeg
 estudios:
 
 trayectoria: 2019 - 2020#Rayo Cantabria*2018 - 2019#Pontevedra*2017 - 2018#Getafe CF*2016 - 2017#Celta de Vigo DH
