@@ -1,14 +1,14 @@
 ---
 posicion: 58
-nombre: Alberto 
-apellidos: Rodriguez
+nombre: Adrian
+apellidos: Perez
 nacionalidad: Español
-demarcacion: Lateral Derecho
+demarcacion: Media punta
 estatura: 178 cm
-equipo_actual: As Pontes
-fecha_de_nacimiento: 2000/04/27
+equipo_actual: Bergantiños FC
+fecha_de_nacimiento: 1996/01/26
 pie: Derecho
-foto: alberto.jpg
+foto: adri.jpg
 estudios:
 
 trayectoria: 
