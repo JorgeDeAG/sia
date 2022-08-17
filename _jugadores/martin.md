@@ -4,8 +4,8 @@ nombre: Brian
 apellidos: Martin
 nacionalidad: Español
 demarcacion: Delantero
-estatura: 
-equipo_actual: Atlético Paso
+estatura: 180 cm
+equipo_actual: Gimnástica de Torrelavega
 fecha_de_nacimiento: 1996/04/09
 pie: Izquierdo
 foto: Brian.jpeg
