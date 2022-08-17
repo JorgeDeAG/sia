@@ -5,7 +5,7 @@ apellidos: Fuentes
 nacionalidad: Española
 demarcacion: Mediapunta
 estatura: 1,75 m
-equipo_actual: Real Racing Club DH
+equipo_actual: CD Cayon/Rayo Cantabria
 fecha_de_nacimiento: 2003/09/01
 pie: izquierdo
 foto: DiegoFuentes.jfif
