@@ -5,13 +5,13 @@ apellidos: Isuardi
 nacionalidad: Español
 demarcacion: Delantero
 estatura: 1,71 m
-equipo_actual: Marbella
+equipo_actual: CD Estepona FS
 fecha_de_nacimiento: 1992/02/02
 pie: derecho
 foto: jaimeIsuardi.jpeg
 estudios: 
 
-trayectoria: 2019 - 2020#Club Portugalete
+trayectoria: 2020 - 2021#Marbella
 titulos:
 logros:
 
