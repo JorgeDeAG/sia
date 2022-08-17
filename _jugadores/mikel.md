@@ -5,13 +5,13 @@ apellidos: Santamaría
 nacionalidad: Español
 demarcacion: central zurdo
 estatura: 185cm
-equipo_actual: Racing Rioja
+equipo_actual: CD Tudelano
 fecha_de_nacimiento: 1987/07/20
 pie: izquierdo
 foto: mikel.jpg 
 estudios:
 
-trayectoria: 2020 - 2021#Calahorra
+trayectoria: 2021 - 2022#Racing Rioja
 
 titulos:
 logros:
