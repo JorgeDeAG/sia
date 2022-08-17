@@ -6,7 +6,7 @@ apellidos: Jimenez Aristi
 nacionalidad: Español
 demarcacion: Portero
 estatura: 185 cm
-equipo_actual: Real Racing Club DH
+equipo_actual: UC Cartes/Rayo Cantabria
 fecha_de_nacimiento: 2003/02/07
 pie: derecho
 foto: alvarojimenez.jpeg
