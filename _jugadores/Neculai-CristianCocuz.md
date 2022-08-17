@@ -5,7 +5,7 @@ apellidos: Cocuz
 nacionalidad: Rumano 
 demarcacion: Medio Centro
 estatura: 181 cm
-equipo_actual: CD Carabanchel
+equipo_actual: Nuova Sondrio Calcio
 fecha_de_nacimiento: 1997/02/18
 pie: Derecho
 foto: Neculai-CristianCocuz.jpg
