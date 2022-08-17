@@ -6,13 +6,13 @@ apellidos: Galvan
 nacionalidad: Español
 demarcacion: Mediocentro
 estatura: 177 cm
-equipo_actual: Atlético Paso
+equipo_actual: UD Ibarra
 fecha_de_nacimiento: 2004/01/01
 pie: derecho
 foto: davidgalvan.jpeg
 estudios:
 
-trayectoria: 2020 - 2021#Los Llanos de Aridane
+trayectoria: 2021 - 2022#Atlético Paso
 titulos:
 logros:
 
