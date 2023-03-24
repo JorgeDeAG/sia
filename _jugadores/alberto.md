@@ -5,7 +5,7 @@ apellidos: Perez
 nacionalidad: Español
 demarcacion: Media punta
 estatura: 178 cm
-equipo_actual: Bergantiños FC
+equipo_actual: Cristo Palencia
 fecha_de_nacimiento: 1996/01/26
 pie: Derecho
 foto: adri.jpg
